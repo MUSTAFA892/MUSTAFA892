@@ -1,4 +1,4 @@
-<img src="https://github.com/user-attachments/assets/36636db2-e283-4481-bc90-6b095e41750a" alt="Luffy’s Peak - Attained! GEAR FIVE" width="700"/>
+<img src="https://github.com/user-attachments/assets/36636db2-e283-4481-bc90-6b095e41750a" alt="Luffy’s Peak - Attained! GEAR FIVE" width="850"/>
 
 
 <h1 align="center">Hi 👋, I'm Mustafa</h1>
