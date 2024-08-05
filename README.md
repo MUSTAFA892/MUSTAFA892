@@ -1,4 +1,4 @@
-![Cool GIF](https://i.pinimg.com/originals/0d/f6/fa/0df6fa2f3d00cb2c2148cefb82975a49.gif)
+![Luffy’s Peak - Attained! GEAR FIVE](https://github.com/user-attachments/assets/36636db2-e283-4481-bc90-6b095e41750a)
 
 
 <h1 align="center">Hi 👋, I'm Mustafa</h1>
