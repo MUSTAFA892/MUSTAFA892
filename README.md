@@ -1,4 +1,5 @@
-![Description of the GIF](https://i.pinimg.com/originals/0d/f6/fa/0df6fa2f3d00cb2c2148cefb82975a49.gif)
+![Cool GIF](https://i.pinimg.com/originals/0d/f6/fa/0df6fa2f3d00cb2c2148cefb82975a49.gif)
+
 
 <h1 align="center">Hi 👋, I'm Mustafa</h1>
 <h3 align="center">A passionate FullStack Developer from India</h3>
