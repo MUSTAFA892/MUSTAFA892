@@ -12,7 +12,7 @@
 
 
 
-- 🔭 I’m currently working on **Pygame Project**
+- 🔭 I’m currently working on **AGRICONNECT - A farmer Application**
 
 - 🌱 I’m currently learning **Machine Learning**
 
