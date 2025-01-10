@@ -5,20 +5,26 @@
      style="border-radius: 15px;"/>
 
 
-<h1 align="center">Hi 👋, I'm Mustafa</h1>
-<h3 align="center">A passionate AI Developer from India</h3>
-<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
+Sure! Here's a more polished and professional version of your GitHub README:
+
+---
+
+# Hello, I'm Mustafa 👋
+
+### A passionate AI Developer from India
+
+![Coding](https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif)
+
+---
+
+- 🔭 **Current Project**: I am working on a **Gym Application** to enhance user experience and functionality.
+  
+- 🌱 **Learning**: Currently diving deeper into **Machine Learning** to improve my skills and knowledge in the field of AI.
+
+- 📫 **Contact**: Feel free to reach out to me via email at **mustafatinwala6@gmail.com**.
 
 
-
-
-- 🔭 I’m currently working on **Gym_Application**
-
-- 🌱 I’m currently learning **Machine Learning**
-
-- 📫 How to reach me **mustafatinwala6@gmail.com**
-
-- ⚡ Fun fact **I am Funny**
+---
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
