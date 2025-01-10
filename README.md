@@ -9,9 +9,10 @@ Sure! Here's a more polished and professional version of your GitHub README:
 
 ---
 
-# Hello, I'm Mustafa 👋
+<h1 align="center">Hello, I'm Mustafa 👋</h1>
 
-### A passionate AI Developer from India
+<h3 align="center">A passionate AI Developer from India</h3>
+
 
 ![Coding](https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif)
 
