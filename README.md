@@ -5,7 +5,7 @@
      style="border-radius: 15px;"/>
 
 
-Sure! Here's a more polished and professional version of your GitHub README:
+
 
 ---
 
@@ -14,18 +14,20 @@ Sure! Here's a more polished and professional version of your GitHub README:
 <h3 align="center">A passionate AI Developer from India</h3>
 
 
-![Coding](https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif)
+<h1 align="center">Hello, I'm Mustafa 👋</h1>
+
+<h3 align="center">A passionate AI Developer from India</h3>
+
+<p align="left">
+  - 🔭 <strong>Current Project</strong>: I am working on a <strong>Gym Application</strong> to enhance user experience and functionality.  
+  - 🌱 <strong>Learning</strong>: Currently diving deeper into <strong>Machine Learning</strong> to improve my skills and knowledge in the field of AI.  
+  - 📫 <strong>Contact</strong>: Feel free to reach out to me via email at <strong>mustafatinwala6@gmail.com</strong>.
+</p>
+
+<img align="right" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
 
 ---
 
-- 🔭 **Current Project**: I am working on a **Gym Application** to enhance user experience and functionality.
-  
-- 🌱 **Learning**: Currently diving deeper into **Machine Learning** to improve my skills and knowledge in the field of AI.
-
-- 📫 **Contact**: Feel free to reach out to me via email at **mustafatinwala6@gmail.com**.
-
-
----
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
