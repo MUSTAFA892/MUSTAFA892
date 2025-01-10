@@ -14,6 +14,7 @@
 <h3 align="center">A passionate AI Developer from India</h3>
 
 
+<img align="right" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
 
 
 - 🔭 **Current Project**: I am working on a **Gym Application** to enhance user experience and functionality.
@@ -27,7 +28,6 @@
 ---
 
 Let me know if you need any further adjustments or additions!
-<img align="right" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
 
 ---
 
