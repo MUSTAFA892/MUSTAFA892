@@ -17,7 +17,7 @@
 <img align="right" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
 
 
-- 🔭 **Current Project**: I am working on a **Gym Application** to enhance user experience and functionality.
+- 🔭 **Current Project**: Participating in Kaggle Competitions.
   
 - 🌱 **Learning**: Currently diving deeper into **Machine Learning** to improve my skills and knowledge in the field of AI.
 
