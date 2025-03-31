@@ -44,44 +44,45 @@
 <h3 align="left">Languages and Tools:</h3>
 <p align="left">
   <!-- Frontend Development -->
-  <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a>
-  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a>
-  <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a>
-  <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a>
-  <a href="https://reactnative.dev/" target="_blank" rel="noreferrer"> <img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="40" height="40"/> </a>
-  <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a>
+  <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/npm/devicons@2.1.0/ci/icons/bootstrap.svg" alt="bootstrap" width="40" height="40"/> </a>
+  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/npm/devicons@2.1.0/ci/icons/css3.svg" alt="css3" width="40" height="40"/> </a>
+  <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/npm/devicons@2.1.0/ci/icons/html5.svg" alt="html5" width="40" height="40"/> </a>
+  <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/npm/devicons@2.1.0/ci/icons/react.svg" alt="react" width="40" height="40"/> </a>
+  <a href="https://reactnative.dev/" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/npm/devicons@2.1.0/ci/icons/react-original.svg" alt="reactnative" width="40" height="40"/> </a>
+  <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/npm/devicons@2.1.0/ci/icons/tailwindcss.svg" alt="tailwind" width="40" height="40"/> </a>
 
   <!-- Backend Development -->
-  <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a>
-  <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a>
-  <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a>
-  <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Django_logo.svg/512px-Django_logo.svg.png" alt="django" width="40" height="40"/> </a>
-  <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"> <img src="https://flask.palletsprojects.com/en/2.0.x/_images/flask-logo.png" alt="flask" width="40" height="40"/> </a>
-  <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a>
-  <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a>
+  <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/npm/devicons@2.1.0/ci/icons/express.svg" alt="express" width="40" height="40"/> </a>
+  <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/npm/devicons@2.1.0/ci/icons/nodejs.svg" alt="nodejs" width="40" height="40"/> </a>
+  <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/npm/devicons@2.1.0/ci/icons/java.svg" alt="java" width="40" height="40"/> </a>
+  <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/npm/devicons@2.1.0/ci/icons/django.svg" alt="django" width="40" height="40"/> </a>
+  <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/npm/devicons@2.1.0/ci/icons/flask.svg" alt="flask" width="40" height="40"/> </a>
+  <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/npm/devicons@2.1.0/ci/icons/mongodb.svg" alt="mongodb" width="40" height="40"/> </a>
+  <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/npm/devicons@2.1.0/ci/icons/mysql.svg" alt="mysql" width="40" height="40"/> </a>
 
   <!-- Cloud & DevOps -->
-  <a href="https://aws.amazon.com/amplify/" target="_blank" rel="noreferrer"> <img src="https://docs.amplify.aws/assets/logo-dark.svg" alt="amplify" width="40" height="40"/> </a>
-  <a href="https://www.google.com/cloud" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40"/> </a>
-  <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a>
+  <a href="https://aws.amazon.com/amplify/" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/npm/devicons@2.1.0/ci/icons/aws.svg" alt="aws" width="40" height="40"/> </a>
+  <a href="https://www.google.com/cloud" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/npm/devicons@2.1.0/ci/icons/googlecloud.svg" alt="gcp" width="40" height="40"/> </a>
+  <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/npm/devicons@2.1.0/ci/icons/docker.svg" alt="docker" width="40" height="40"/> </a>
 
   <!-- Version Control -->
-  <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a>
+  <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/npm/devicons@2.1.0/ci/icons/git.svg" alt="git" width="40" height="40"/> </a>
 
   <!-- Data Science & AI/ML -->
-  <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a>
-  <a href="https://keras.io/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Keras_logo.png" alt="keras" width="40" height="40"/> </a>
-  <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit-learn" width="40" height="40"/> </a>
-  <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/PyTorch_logo.png" alt="pytorch" width="40" height="40"/> </a>
-  <a href="https://www.jupyter.org" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Jupyter_logo.svg/512px-Jupyter_logo.svg.png" alt="jupyter" width="40" height="40"/> </a>
-  <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a>
+  <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/npm/devicons@2.1.0/ci/icons/tensorflow.svg" alt="tensorflow" width="40" height="40"/> </a>
+  <a href="https://keras.io/" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/npm/devicons@2.1.0/ci/icons/keras.svg" alt="keras" width="40" height="40"/> </a>
+  <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/npm/devicons@2.1.0/ci/icons/scikit.svg" alt="scikit-learn" width="40" height="40"/> </a>
+  <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/npm/devicons@2.1.0/ci/icons/pytorch.svg" alt="pytorch" width="40" height="40"/> </a>
+  <a href="https://www.jupyter.org" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/npm/devicons@2.1.0/ci/icons/jupyter.svg" alt="jupyter" width="40" height="40"/> </a>
+  <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/npm/devicons@2.1.0/ci/icons/python.svg" alt="python" width="40" height="40"/> </a>
 
   <!-- Tools & Productivity -->
-  <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Visual_Studio_Code_1.35_icon.svg" alt="vscode" width="40" height="40"/> </a>
-  <a href="https://www.notion.so/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Notion_logo_2020.png" alt="notion" width="40" height="40"/> </a>
-  <a href="https://www.curseforge.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Cursor_logo.svg/1024px-Cursor_logo.svg.png" alt="cursor" width="40" height="40"/> </a>
-  <a href="https://garudalinux.org/" target="_blank" rel="noreferrer"> <img src="https://garudalinux.org/wp-content/uploads/2020/07/cropped-logo-192x192.png" alt="garuda-linux" width="40" height="40"/> </a>
+  <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/npm/devicons@2.1.0/ci/icons/visualstudio.svg" alt="vscode" width="40" height="40"/> </a>
+  <a href="https://www.notion.so/" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/npm/devicons@2.1.0/ci/icons/notion.svg" alt="notion" width="40" height="40"/> </a>
+  <a href="https://www.curseforge.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/npm/devicons@2.1.0/ci/icons/cursor.svg" alt="cursor" width="40" height="40"/> </a>
+  <a href="https://garudalinux.org/" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/npm/devicons@2.1.0/ci/icons/linux.svg" alt="garuda-linux" width="40" height="40"/> </a>
 </p>
+
 
 
 
