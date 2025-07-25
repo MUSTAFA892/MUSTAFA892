@@ -1,4 +1,8 @@
-<img src="https://i.imgur.com/abcd1234.png" alt="Luffy’s Peak - Attained! GEAR FIVE" width="100%" style="border-radius: 12px;" />
+<img src="https://github.com/user-attachments/assets/36636db2-e283-4481-bc90-6b095e41750a" 
+     alt="Luffy’s Peak - Attained! GEAR FIVE" 
+     width="900"
+     height="400"
+     style="border-radius: 15px;"/>
 ---
 
 <h1 align="center">👋 Hello, I'm Mustafa A.</h1>
