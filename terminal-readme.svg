@@ -1,8 +1,8 @@
-<svg viewBox="0 0 940 760" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" font-family="'SF Mono','Cascadia Code','Fira Code',Consolas,Monaco,monospace">
+<svg viewBox="0 0 1200 1437.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" font-family="'Cascadia Code','Fira Code','Courier New',monospace">
 
   <defs>
     <clipPath id="winclip">
-      <rect x="0" y="0" width="940" height="760" rx="18" ry="18"/>
+      <rect x="0" y="0" width="1200" height="1437.0" rx="20" ry="20"/>
     </clipPath>
 
     <linearGradient id="hyprBorder" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -11,172 +11,338 @@
       <stop offset="50%" stop-color="#a6e3a1"/>
       <stop offset="75%" stop-color="#89b4fa"/>
       <stop offset="100%" stop-color="#cba6f7"/>
-      <animateTransform attributeName="gradientTransform" type="translate"
-        values="-940 0; 0 0; 940 0" dur="6s" repeatCount="indefinite"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-1200 0; 0 0; 1200 0" dur="8s" repeatCount="indefinite"/>
     </linearGradient>
 
     <radialGradient id="glow" cx="50%" cy="0%" r="80%">
-      <stop offset="0%" stop-color="#cba6f7" stop-opacity="0.10"/>
+      <stop offset="0%" stop-color="#cba6f7" stop-opacity="0.08"/>
       <stop offset="100%" stop-color="#cba6f7" stop-opacity="0"/>
     </radialGradient>
   </defs>
 
-  <!-- ===== window body ===== -->
+  <!-- ===== WINDOW BODY ===== -->
   <g clip-path="url(#winclip)">
-    <rect x="0" y="0" width="940" height="760" fill="#1e1e2e"/>
-    <rect x="0" y="0" width="940" height="760" fill="url(#glow)"/>
+    <rect x="0" y="0" width="1200" height="1437.0" fill="#1e1e2e"/>
+    <rect x="0" y="0" width="1200" height="1437.0" fill="url(#glow)"/>
 
-    <!-- hyprland-style animated gradient active border -->
-    <rect x="0" y="0" width="940" height="4" fill="url(#hyprBorder)"/>
+    <!-- animated top border -->
+    <rect x="0" y="0" width="1200" height="5" fill="url(#hyprBorder)"/>
 
     <!-- title bar -->
-    <rect x="0" y="4" width="940" height="38" fill="#181825"/>
-    <line x1="0" y1="42" x2="940" y2="42" stroke="#313244" stroke-width="1"/>
+    <rect x="0" y="5" width="1200" height="45" fill="#181825"/>
+    <line x1="0" y1="50" x2="1200" y2="50" stroke="#313244" stroke-width="1"/>
 
-    <circle cx="28" cy="23" r="6.5" fill="#f38ba8"/>
-    <circle cx="50" cy="23" r="6.5" fill="#f9e2af"/>
-    <circle cx="72" cy="23" r="6.5" fill="#a6e3a1"/>
+    <circle cx="32" cy="27.5" r="8" fill="#f38ba8"/>
+    <circle cx="60" cy="27.5" r="8" fill="#f9e2af"/>
+    <circle cx="88" cy="27.5" r="8" fill="#a6e3a1"/>
 
-    <text x="470" y="27" text-anchor="middle" font-size="13" fill="#a6adc8">mustafa@hyprland: ~  —  kitty</text>
-    <text x="908" y="27" text-anchor="end" font-size="12" fill="#585b70">100% ● zsh</text>
+    <text x="600" y="32" text-anchor="middle" font-size="14" fill="#a6adc8" font-weight="500">mustafa@hyprland ~ zsh</text>
+    <text x="1160" y="32" text-anchor="end" font-size="12" fill="#585b70">100% ⚡</text>
 
     <!-- ================= CONTENT ================= -->
-    <g font-size="14" xml:space="preserve">
-
-      <!-- block 1 : whoami -->
-      <text x="28" y="78" opacity="0">
-        <animate attributeName="opacity" begin="0.4s" dur="0.25s" to="1" fill="freeze"/>
-        <tspan fill="#a6e3a1">guest@mustafa</tspan><tspan fill="#585b70">:</tspan><tspan fill="#89b4fa">~</tspan><tspan fill="#585b70">$ </tspan><tspan fill="#cba6f7">neofetch --whoami</tspan>
-      </text>
-
-      <text x="46" y="100" opacity="0" fill="#cdd6f4">
-        <animate attributeName="opacity" begin="1.0s" dur="0.2s" to="1" fill="freeze"/>
-        <tspan fill="#fab387">Name        </tspan> Mustafa A.
-      </text>
-      <text x="46" y="122" opacity="0" fill="#cdd6f4">
-        <animate attributeName="opacity" begin="1.3s" dur="0.2s" to="1" fill="freeze"/>
-        <tspan fill="#fab387">Role        </tspan> AI/ML Developer | Full-Stack Engineer (MERN)
-      </text>
-      <text x="46" y="144" opacity="0" fill="#cdd6f4">
-        <animate attributeName="opacity" begin="1.6s" dur="0.2s" to="1" fill="freeze"/>
-        <tspan fill="#fab387">Education   </tspan> AI Undergrad @ KGiSL Institute of Technology (2023–2027)
-      </text>
-      <text x="46" y="166" opacity="0" fill="#cdd6f4">
-        <animate attributeName="opacity" begin="1.9s" dur="0.2s" to="1" fill="freeze"/>
-        <tspan fill="#fab387">Company     </tspan> Developer @ NovaCorp
-      </text>
-      <text x="46" y="188" opacity="0" fill="#cdd6f4">
-        <animate attributeName="opacity" begin="2.2s" dur="0.2s" to="1" fill="freeze"/>
-        <tspan fill="#fab387">Focus       </tspan> MERN · Flask APIs · AI Integration · Cloud Deploy
-      </text>
-
-      <!-- block 2 : skills -->
-      <text x="28" y="222" opacity="0">
-        <animate attributeName="opacity" begin="2.9s" dur="0.25s" to="1" fill="freeze"/>
-        <tspan fill="#a6e3a1">guest@mustafa</tspan><tspan fill="#585b70">:</tspan><tspan fill="#89b4fa">~</tspan><tspan fill="#585b70">$ </tspan><tspan fill="#cba6f7">ls ./skills --tree</tspan>
-      </text>
-
-      <text x="46" y="244" opacity="0" fill="#cdd6f4">
-        <animate attributeName="opacity" begin="3.5s" dur="0.2s" to="1" fill="freeze"/>
-        <tspan fill="#89b4fa">Languages/Frameworks </tspan> Python · JavaScript · Node.js · React · Express · Django
-      </text>
-      <text x="46" y="266" opacity="0" fill="#cdd6f4">
-        <animate attributeName="opacity" begin="3.8s" dur="0.2s" to="1" fill="freeze"/>
-        <tspan fill="#89b4fa">AI / ML              </tspan> TensorFlow · Scikit-learn · OpenCV · Pandas · NumPy
-      </text>
-      <text x="46" y="288" opacity="0" fill="#cdd6f4">
-        <animate attributeName="opacity" begin="4.1s" dur="0.2s" to="1" fill="freeze"/>
-        <tspan fill="#89b4fa">Databases            </tspan> MongoDB · MySQL · PostgreSQL
-      </text>
-      <text x="46" y="310" opacity="0" fill="#cdd6f4">
-        <animate attributeName="opacity" begin="4.4s" dur="0.2s" to="1" fill="freeze"/>
-        <tspan fill="#89b4fa">Cloud / DevOps       </tspan> Firebase · GCP · Docker · Git
-      </text>
-
-      <!-- block 3 : luffy neofetch -->
-      <text x="28" y="344" opacity="0">
-        <animate attributeName="opacity" begin="5.1s" dur="0.25s" to="1" fill="freeze"/>
-        <tspan fill="#a6e3a1">guest@mustafa</tspan><tspan fill="#585b70">:</tspan><tspan fill="#89b4fa">~</tspan><tspan fill="#585b70">$ </tspan><tspan fill="#cba6f7">neofetch --luffy</tspan>
-      </text>
-
-      <g opacity="0">
-        <animate attributeName="opacity" begin="5.6s" dur="0.3s" to="1" fill="freeze"/>
-
-        <!-- ascii art (monospace, small) -->
-        <g font-size="13.5" fill="#f9e2af">
-          <text x="46"  y="368">    __,,--~~~~--,,__</text>
-          <text x="46"  y="386">  ,-'              '-,</text>
-          <!-- eyes: open state -->
-          <g>
-            <text x="46" y="404" fill="#cdd6f4"> /     o          o    \</text>
-            <animate attributeName="opacity" values="1;1;0;1" keyTimes="0;0.85;0.9;1" dur="4s" begin="5.9s" repeatCount="indefinite"/>
-          </g>
-          <!-- eyes: closed state (blink) -->
-          <g>
-            <text x="46" y="404" fill="#cdd6f4"> /     ‑          ‑    \</text>
-            <animate attributeName="opacity" values="0;0;1;0" keyTimes="0;0.85;0.9;1" dur="4s" begin="5.9s" repeatCount="indefinite"/>
-          </g>
-
-          <text x="46" y="422" fill="#cdd6f4">|         \___/         |</text>
-          <text x="46" y="440" fill="#cdd6f4"> \                    /</text>
-          <text x="46" y="458">  '--,,________,,--'</text>
-
-          <text x="46" y="480" fill="#f38ba8" font-weight="bold">
-            <animate attributeName="fill" values="#f38ba8;#fab387;#cba6f7;#f38ba8" dur="3s" begin="5.9s" repeatCount="indefinite"/>
-            <animateTransform attributeName="transform" type="translate" values="0 0;0 -1.5;0 0" dur="1.6s" begin="5.9s" repeatCount="indefinite"/>
-            &#160;&#160;&#160;&#160;&#160;[ GEAR 5 ]
-          </text>
-        </g>
-
-        <!-- neofetch-style info column -->
-        <text x="340" y="368" fill="#cdd6f4"><tspan fill="#89b4fa">Captain  </tspan> Monkey D. Luffy</text>
-        <text x="340" y="388" fill="#cdd6f4"><tspan fill="#89b4fa">Crew     </tspan> Straw Hat Pirates</text>
-        <text x="340" y="408" fill="#cdd6f4"><tspan fill="#89b4fa">Bounty   </tspan> ₿ 3,000,000,000</text>
-        <text x="340" y="428" fill="#cdd6f4"><tspan fill="#89b4fa">Dream    </tspan> King of the Pirates!</text>
-        <text x="340" y="448" fill="#cdd6f4"><tspan fill="#89b4fa">Gear     </tspan> FIVE — Awakened</text>
-        <text x="340" y="468" fill="#cdd6f4"><tspan fill="#89b4fa">Status   </tspan> Nika Unleashed</text>
-      </g>
-
-      <!-- block 4 : contact -->
-      <text x="28" y="520" opacity="0">
-        <animate attributeName="opacity" begin="7.5s" dur="0.25s" to="1" fill="freeze"/>
-        <tspan fill="#a6e3a1">guest@mustafa</tspan><tspan fill="#585b70">:</tspan><tspan fill="#89b4fa">~</tspan><tspan fill="#585b70">$ </tspan><tspan fill="#cba6f7">cat contact.txt</tspan>
-      </text>
-
-      <text x="46" y="542" opacity="0" fill="#cdd6f4">
-        <animate attributeName="opacity" begin="8.0s" dur="0.2s" to="1" fill="freeze"/>
-        <tspan fill="#a6e3a1">LinkedIn   </tspan><tspan fill="#585b70"> -&gt; </tspan>linkedin.com/in/mustafa-a-904747283
-      </text>
-      <text x="46" y="564" opacity="0" fill="#cdd6f4">
-        <animate attributeName="opacity" begin="8.3s" dur="0.2s" to="1" fill="freeze"/>
-        <tspan fill="#a6e3a1">Gmail      </tspan><tspan fill="#585b70"> -&gt; </tspan>mustafatinwala6@gmail.com
-      </text>
-      <text x="46" y="586" opacity="0" fill="#cdd6f4">
-        <animate attributeName="opacity" begin="8.6s" dur="0.2s" to="1" fill="freeze"/>
-        <tspan fill="#a6e3a1">Portfolio  </tspan><tspan fill="#585b70"> -&gt; </tspan>port-folio-nine-ruddy.vercel.app
-      </text>
-      <text x="46" y="608" opacity="0" fill="#cdd6f4">
-        <animate attributeName="opacity" begin="8.9s" dur="0.2s" to="1" fill="freeze"/>
-        <tspan fill="#a6e3a1">Discord    </tspan><tspan fill="#585b70"> -&gt; </tspan>mustafa5253
-      </text>
-      <text x="46" y="630" opacity="0" fill="#cdd6f4">
-        <animate attributeName="opacity" begin="9.2s" dur="0.2s" to="1" fill="freeze"/>
-        <tspan fill="#a6e3a1">Instagram  </tspan><tspan fill="#585b70"> -&gt; </tspan>_.mustafa._52
-      </text>
-
-      <!-- final prompt + blinking cursor -->
-      <text x="28" y="664" opacity="0">
-        <animate attributeName="opacity" begin="9.9s" dur="0.25s" to="1" fill="freeze"/>
+    <g font-size="13" xml:space="preserve">
+      <text x="32" y="85" opacity="0">
+        <animate attributeName="opacity" begin="0.30s" dur="0.15s" to="1" fill="freeze"/>
         <tspan fill="#a6e3a1">guest@mustafa</tspan><tspan fill="#585b70">:</tspan><tspan fill="#89b4fa">~</tspan><tspan fill="#585b70">$ </tspan>
       </text>
-
-      <rect x="118" y="652" width="9" height="16" fill="#cdd6f4" opacity="0">
-        <animate attributeName="opacity" begin="10.1s" values="1;1;0;0" keyTimes="0;0.5;0.51;1" dur="1s" repeatCount="indefinite"/>
+      <clipPath id="typeclip1">
+        <rect x="163.8" y="71" width="0" height="20">
+          <animate attributeName="width" begin="0.45s" dur="0.77s" calcMode="discrete" keyTimes="0.0;0.0588;0.1176;0.1765;0.2353;0.2941;0.3529;0.4118;0.4706;0.5294;0.5882;0.6471;0.7059;0.7647;0.8235;0.8824;0.9412;1" values="0.0;7.8;15.5;23.2;31.0;38.8;46.5;54.2;62.0;69.8;77.5;85.2;93.0;100.8;108.5;116.2;124.0;171.8" fill="freeze"/>
+        </rect>
+      </clipPath>
+      <text x="163.8" y="85" fill="#cba6f7" clip-path="url(#typeclip1)">whoami --detailed</text>
+      <rect x="163.8" y="72" width="7" height="16" fill="#f5e0dc" opacity="0">
+        <animate attributeName="opacity" begin="0.45s" dur="0.05s" to="1" fill="freeze"/>
+        <animate attributeName="x" begin="0.45s" dur="0.77s" calcMode="discrete" keyTimes="0.0;0.0588;0.1176;0.1765;0.2353;0.2941;0.3529;0.4118;0.4706;0.5294;0.5882;0.6471;0.7059;0.7647;0.8235;0.8824;0.9412;1" values="163.8;171.5;179.2;187.0;194.8;202.5;210.2;218.0;225.8;233.5;241.2;249.0;256.8;264.5;272.2;280.0;287.8;295.5" fill="freeze"/>
+        <animate attributeName="opacity" begin="1.21s" dur="0.35s" values="1;0;1;0" fill="freeze"/>
+        <animate attributeName="opacity" begin="1.56s" dur="0.1s" to="0" fill="freeze"/>
       </rect>
+      <text x="50" y="105" opacity="0" fill="#cdd6f4">
+        <animate attributeName="opacity" begin="1.39s" dur="0.15s" to="1" fill="freeze"/>
+        <tspan fill="#fab387">Name</tspan><tspan fill="#585b70">        : </tspan>Mustafa A.
+      </text>
+      <text x="50" y="125" opacity="0" fill="#cdd6f4">
+        <animate attributeName="opacity" begin="1.55s" dur="0.15s" to="1" fill="freeze"/>
+        <tspan fill="#fab387">Role</tspan><tspan fill="#585b70">        : </tspan>AI/ML Developer | Full-Stack Engineer (MERN) | Building Intelligent Web Apps
+      </text>
+      <text x="50" y="145" opacity="0" fill="#cdd6f4">
+        <animate attributeName="opacity" begin="1.71s" dur="0.15s" to="1" fill="freeze"/>
+        <tspan fill="#fab387">Education</tspan><tspan fill="#585b70">   : </tspan>AI Undergraduate @ KGiSL Institute of Technology (2023–2027)
+      </text>
+      <text x="50" y="165" opacity="0" fill="#cdd6f4">
+        <animate attributeName="opacity" begin="1.87s" dur="0.15s" to="1" fill="freeze"/>
+        <tspan fill="#fab387">Employer</tspan><tspan fill="#585b70">    : </tspan>NovaCorp — Building Tailored Solutions
+      </text>
+      <text x="50" y="185" opacity="0" fill="#cdd6f4">
+        <animate attributeName="opacity" begin="2.03s" dur="0.15s" to="1" fill="freeze"/>
+        <tspan fill="#fab387">Philosophy</tspan><tspan fill="#585b70"> : </tspan>Ship things smart AND production-ready
+      </text>
+      <text x="32" y="225" opacity="0">
+        <animate attributeName="opacity" begin="2.19s" dur="0.15s" to="1" fill="freeze"/>
+        <tspan fill="#a6e3a1">guest@mustafa</tspan><tspan fill="#585b70">:</tspan><tspan fill="#89b4fa">~</tspan><tspan fill="#585b70">$ </tspan>
+      </text>
+      <clipPath id="typeclip2">
+        <rect x="163.8" y="211" width="0" height="20">
+          <animate attributeName="width" begin="2.34s" dur="0.54s" calcMode="discrete" keyTimes="0.0;0.0833;0.1667;0.25;0.3333;0.4167;0.5;0.5833;0.6667;0.75;0.8333;0.9167;1" values="0.0;7.8;15.5;23.2;31.0;38.8;46.5;54.2;62.0;69.8;77.5;85.2;133.0" fill="freeze"/>
+        </rect>
+      </clipPath>
+      <text x="163.8" y="225" fill="#cba6f7" clip-path="url(#typeclip2)">cat about.md</text>
+      <rect x="163.8" y="212" width="7" height="16" fill="#f5e0dc" opacity="0">
+        <animate attributeName="opacity" begin="2.34s" dur="0.05s" to="1" fill="freeze"/>
+        <animate attributeName="x" begin="2.34s" dur="0.54s" calcMode="discrete" keyTimes="0.0;0.0833;0.1667;0.25;0.3333;0.4167;0.5;0.5833;0.6667;0.75;0.8333;0.9167;1" values="163.8;171.5;179.2;187.0;194.8;202.5;210.2;218.0;225.8;233.5;241.2;249.0;256.8" fill="freeze"/>
+        <animate attributeName="opacity" begin="2.88s" dur="0.35s" values="1;0;1;0" fill="freeze"/>
+        <animate attributeName="opacity" begin="3.23s" dur="0.1s" to="0" fill="freeze"/>
+      </rect>
+      <text x="50" y="245" opacity="0" fill="#cdd6f4">
+        <animate attributeName="opacity" begin="3.06s" dur="0.15s" to="1" fill="freeze"/>
+        I'm a developer passionate about building intelligent systems that
+      </text>
+      <text x="50" y="265" opacity="0" fill="#cdd6f4">
+        <animate attributeName="opacity" begin="3.23s" dur="0.15s" to="1" fill="freeze"/>
+        connect AI with scalable web technologies — designing solutions that
+      </text>
+      <text x="50" y="285" opacity="0" fill="#cdd6f4">
+        <animate attributeName="opacity" begin="3.39s" dur="0.15s" to="1" fill="freeze"/>
+        are smart, user-centric, and production-ready.
+      </text>
+      <text x="50" y="317.0" opacity="0" fill="#cdd6f4">
+        <animate attributeName="opacity" begin="3.55s" dur="0.15s" to="1" fill="freeze"/>
+        <tspan fill="#a6e3a1">→</tspan> Enthusiastic about applied ML, automation &amp; system design
+      </text>
+      <text x="50" y="337.0" opacity="0" fill="#cdd6f4">
+        <animate attributeName="opacity" begin="3.71s" dur="0.15s" to="1" fill="freeze"/>
+        <tspan fill="#a6e3a1">→</tspan> Striving to blend software engineering with data science
+      </text>
+      <text x="50" y="357.0" opacity="0" fill="#cdd6f4">
+        <animate attributeName="opacity" begin="3.87s" dur="0.15s" to="1" fill="freeze"/>
+        <tspan fill="#a6e3a1">→</tspan> Core interests: MERN Stack, Flask APIs, AI Integration, Cloud
+      </text>
+      <text x="32" y="397.0" opacity="0">
+        <animate attributeName="opacity" begin="4.03s" dur="0.15s" to="1" fill="freeze"/>
+        <tspan fill="#a6e3a1">guest@mustafa</tspan><tspan fill="#585b70">:</tspan><tspan fill="#89b4fa">~</tspan><tspan fill="#585b70">$ </tspan>
+      </text>
+      <clipPath id="typeclip3">
+        <rect x="163.8" y="383.0" width="0" height="20">
+          <animate attributeName="width" begin="4.18s" dur="0.81s" calcMode="discrete" keyTimes="0.0;0.0556;0.1111;0.1667;0.2222;0.2778;0.3333;0.3889;0.4444;0.5;0.5556;0.6111;0.6667;0.7222;0.7778;0.8333;0.8889;0.9444;1" values="0.0;7.8;15.5;23.2;31.0;38.8;46.5;54.2;62.0;69.8;77.5;85.2;93.0;100.8;108.5;116.2;124.0;131.8;179.5" fill="freeze"/>
+        </rect>
+      </clipPath>
+      <text x="163.8" y="397.0" fill="#cba6f7" clip-path="url(#typeclip3)">cat focus-areas.md</text>
+      <rect x="163.8" y="384.0" width="7" height="16" fill="#f5e0dc" opacity="0">
+        <animate attributeName="opacity" begin="4.18s" dur="0.05s" to="1" fill="freeze"/>
+        <animate attributeName="x" begin="4.18s" dur="0.81s" calcMode="discrete" keyTimes="0.0;0.0556;0.1111;0.1667;0.2222;0.2778;0.3333;0.3889;0.4444;0.5;0.5556;0.6111;0.6667;0.7222;0.7778;0.8333;0.8889;0.9444;1" values="163.8;171.5;179.2;187.0;194.8;202.5;210.2;218.0;225.8;233.5;241.2;249.0;256.8;264.5;272.2;280.0;287.8;295.5;303.2" fill="freeze"/>
+        <animate attributeName="opacity" begin="4.99s" dur="0.35s" values="1;0;1;0" fill="freeze"/>
+        <animate attributeName="opacity" begin="5.33s" dur="0.1s" to="0" fill="freeze"/>
+      </rect>
+      <text x="50" y="417.0" opacity="0" fill="#cdd6f4">
+        <animate attributeName="opacity" begin="5.17s" dur="0.15s" to="1" fill="freeze"/>
+        <tspan fill="#f38ba8">→</tspan> Building intelligent RESTful APIs with Flask and Node.js
+      </text>
+      <text x="50" y="437.0" opacity="0" fill="#cdd6f4">
+        <animate attributeName="opacity" begin="5.33s" dur="0.15s" to="1" fill="freeze"/>
+        <tspan fill="#f38ba8">→</tspan> Creating modular &amp; responsive UI with React, Tailwind CSS, Bootstrap
+      </text>
+      <text x="50" y="457.0" opacity="0" fill="#cdd6f4">
+        <animate attributeName="opacity" begin="5.49s" dur="0.15s" to="1" fill="freeze"/>
+        <tspan fill="#f38ba8">→</tspan> Deploying ML models with TensorFlow, OpenCV, Scikit-learn
+      </text>
+      <text x="50" y="477.0" opacity="0" fill="#cdd6f4">
+        <animate attributeName="opacity" begin="5.65s" dur="0.15s" to="1" fill="freeze"/>
+        <tspan fill="#f38ba8">→</tspan> Managing databases: MongoDB, MySQL, PostgreSQL
+      </text>
+      <text x="50" y="497.0" opacity="0" fill="#cdd6f4">
+        <animate attributeName="opacity" begin="5.81s" dur="0.15s" to="1" fill="freeze"/>
+        <tspan fill="#f38ba8">→</tspan> DevOps &amp; Cloud: Docker, GCP, Firebase, Git
+      </text>
+      <text x="32" y="537.0" opacity="0">
+        <animate attributeName="opacity" begin="5.97s" dur="0.15s" to="1" fill="freeze"/>
+        <tspan fill="#a6e3a1">guest@mustafa</tspan><tspan fill="#585b70">:</tspan><tspan fill="#89b4fa">~</tspan><tspan fill="#585b70">$ </tspan>
+      </text>
+      <clipPath id="typeclip4">
+        <rect x="163.8" y="523.0" width="0" height="20">
+          <animate attributeName="width" begin="6.12s" dur="0.99s" calcMode="discrete" keyTimes="0.0;0.0455;0.0909;0.1364;0.1818;0.2273;0.2727;0.3182;0.3636;0.4091;0.4545;0.5;0.5455;0.5909;0.6364;0.6818;0.7273;0.7727;0.8182;0.8636;0.9091;0.9545;1" values="0.0;7.8;15.5;23.2;31.0;38.8;46.5;54.2;62.0;69.8;77.5;85.2;93.0;100.8;108.5;116.2;124.0;131.8;139.5;147.2;155.0;162.8;210.5" fill="freeze"/>
+        </rect>
+      </clipPath>
+      <text x="163.8" y="537.0" fill="#cba6f7" clip-path="url(#typeclip4)">ls ./tech-stack --tree</text>
+      <rect x="163.8" y="524.0" width="7" height="16" fill="#f5e0dc" opacity="0">
+        <animate attributeName="opacity" begin="6.12s" dur="0.05s" to="1" fill="freeze"/>
+        <animate attributeName="x" begin="6.12s" dur="0.99s" calcMode="discrete" keyTimes="0.0;0.0455;0.0909;0.1364;0.1818;0.2273;0.2727;0.3182;0.3636;0.4091;0.4545;0.5;0.5455;0.5909;0.6364;0.6818;0.7273;0.7727;0.8182;0.8636;0.9091;0.9545;1" values="163.8;171.5;179.2;187.0;194.8;202.5;210.2;218.0;225.8;233.5;241.2;249.0;256.8;264.5;272.2;280.0;287.8;295.5;303.2;311.0;318.8;326.5;334.2" fill="freeze"/>
+        <animate attributeName="opacity" begin="7.11s" dur="0.35s" values="1;0;1;0" fill="freeze"/>
+        <animate attributeName="opacity" begin="7.46s" dur="0.1s" to="0" fill="freeze"/>
+      </rect>
+      <text x="50" y="562.0" opacity="0" fill="#cdd6f4">
+        <animate attributeName="opacity" begin="7.29s" dur="0.15s" to="1" fill="freeze"/>
+        <tspan fill="#89b4fa">Languages &amp; Frameworks</tspan>
+      </text>
+      <text x="70" y="582.0" opacity="0" fill="#cdd6f4">
+        <animate attributeName="opacity" begin="7.45s" dur="0.15s" to="1" fill="freeze"/>
+        Python · JavaScript · Node.js · React · Express.js · Django
+      </text>
+      <text x="70" y="602.0" opacity="0" fill="#cdd6f4">
+        <animate attributeName="opacity" begin="7.61s" dur="0.15s" to="1" fill="freeze"/>
+        HTML5 · CSS3 · Tailwind CSS · Bootstrap
+      </text>
+      <text x="50" y="627.0" opacity="0" fill="#cdd6f4">
+        <animate attributeName="opacity" begin="7.77s" dur="0.15s" to="1" fill="freeze"/>
+        <tspan fill="#89b4fa">AI / ML / Data Science</tspan>
+      </text>
+      <text x="70" y="647.0" opacity="0" fill="#cdd6f4">
+        <animate attributeName="opacity" begin="7.93s" dur="0.15s" to="1" fill="freeze"/>
+        TensorFlow · Scikit-learn · OpenCV · Pandas · NumPy
+      </text>
+      <text x="50" y="672.0" opacity="0" fill="#cdd6f4">
+        <animate attributeName="opacity" begin="8.09s" dur="0.15s" to="1" fill="freeze"/>
+        <tspan fill="#89b4fa">Databases</tspan>
+      </text>
+      <text x="70" y="692.0" opacity="0" fill="#cdd6f4">
+        <animate attributeName="opacity" begin="8.25s" dur="0.15s" to="1" fill="freeze"/>
+        MongoDB · MySQL · PostgreSQL
+      </text>
+      <text x="50" y="717.0" opacity="0" fill="#cdd6f4">
+        <animate attributeName="opacity" begin="8.41s" dur="0.15s" to="1" fill="freeze"/>
+        <tspan fill="#89b4fa">Cloud &amp; DevOps</tspan>
+      </text>
+      <text x="70" y="737.0" opacity="0" fill="#cdd6f4">
+        <animate attributeName="opacity" begin="8.57s" dur="0.15s" to="1" fill="freeze"/>
+        Firebase · Google Cloud Platform · Docker · Git · GitHub
+      </text>
+      <text x="50" y="762.0" opacity="0" fill="#cdd6f4">
+        <animate attributeName="opacity" begin="8.73s" dur="0.15s" to="1" fill="freeze"/>
+        <tspan fill="#89b4fa">UI/UX &amp; Design</tspan>
+      </text>
+      <text x="70" y="782.0" opacity="0" fill="#cdd6f4">
+        <animate attributeName="opacity" begin="8.89s" dur="0.15s" to="1" fill="freeze"/>
+        Figma · Bootstrap · Tailwind CSS
+      </text>
+      <text x="32" y="822.0" opacity="0">
+        <animate attributeName="opacity" begin="9.05s" dur="0.15s" to="1" fill="freeze"/>
+        <tspan fill="#a6e3a1">guest@mustafa</tspan><tspan fill="#585b70">:</tspan><tspan fill="#89b4fa">~</tspan><tspan fill="#585b70">$ </tspan>
+      </text>
+      <clipPath id="typeclip5">
+        <rect x="163.8" y="808.0" width="0" height="20">
+          <animate attributeName="width" begin="9.20s" dur="0.90s" calcMode="discrete" keyTimes="0.0;0.05;0.1;0.15;0.2;0.25;0.3;0.35;0.4;0.45;0.5;0.55;0.6;0.65;0.7;0.75;0.8;0.85;0.9;0.95;1" values="0.0;7.8;15.5;23.2;31.0;38.8;46.5;54.2;62.0;69.8;77.5;85.2;93.0;100.8;108.5;116.2;124.0;131.8;139.5;147.2;195.0" fill="freeze"/>
+        </rect>
+      </clipPath>
+      <text x="163.8" y="822.0" fill="#cba6f7" clip-path="url(#typeclip5)">git stats MUSTAFA892</text>
+      <rect x="163.8" y="809.0" width="7" height="16" fill="#f5e0dc" opacity="0">
+        <animate attributeName="opacity" begin="9.20s" dur="0.05s" to="1" fill="freeze"/>
+        <animate attributeName="x" begin="9.20s" dur="0.90s" calcMode="discrete" keyTimes="0.0;0.05;0.1;0.15;0.2;0.25;0.3;0.35;0.4;0.45;0.5;0.55;0.6;0.65;0.7;0.75;0.8;0.85;0.9;0.95;1" values="163.8;171.5;179.2;187.0;194.8;202.5;210.2;218.0;225.8;233.5;241.2;249.0;256.8;264.5;272.2;280.0;287.8;295.5;303.2;311.0;318.8" fill="freeze"/>
+        <animate attributeName="opacity" begin="10.10s" dur="0.35s" values="1;0;1;0" fill="freeze"/>
+        <animate attributeName="opacity" begin="10.45s" dur="0.1s" to="0" fill="freeze"/>
+      </rect>
+      <rect x="50" y="837.0" width="1120" height="300" fill="#181825" stroke="#313244" stroke-width="1" rx="10"/>
+      <text x="70" y="869.0" opacity="0" fill="#cdd6f4">
+        <animate attributeName="opacity" begin="10.28s" dur="0.15s" to="1" fill="freeze"/>
+        <tspan fill="#a6e3a1">GITHUB STATISTICS</tspan><tspan fill="#585b70">   MUSTAFA892</tspan>
+      </text>
+      <line x1="70" y1="883.0" x2="1150" y2="883.0" stroke="#313244" stroke-width="1"/>
+      <text x="70" y="905.0" fill="#fab387" font-size="12" opacity="0"><animate attributeName="opacity" begin="10.44s" dur="0.15s" to="1" fill="freeze"/>PRIMARY LANGUAGES</text>
+      <g opacity="0">
+        <animate attributeName="opacity" begin="10.62s" dur="0.15s" to="1" fill="freeze"/>
+        <rect x="70" y="915.0" width="76" height="26" rx="13" fill="#11111b" stroke="#313244"/>
+        <circle cx="86" cy="928.0" r="5" fill="#3572A5"/>
+        <text x="98" y="932.0" font-size="12" fill="#cdd6f4">Python</text>
+      </g>
+      <g opacity="0">
+        <animate attributeName="opacity" begin="10.74s" dur="0.15s" to="1" fill="freeze"/>
+        <rect x="158" y="915.0" width="104" height="26" rx="13" fill="#11111b" stroke="#313244"/>
+        <circle cx="174" cy="928.0" r="5" fill="#f1e05a"/>
+        <text x="186" y="932.0" font-size="12" fill="#cdd6f4">JavaScript</text>
+      </g>
+      <g opacity="0">
+        <animate attributeName="opacity" begin="10.86s" dur="0.15s" to="1" fill="freeze"/>
+        <rect x="274" y="915.0" width="104" height="26" rx="13" fill="#11111b" stroke="#313244"/>
+        <circle cx="290" cy="928.0" r="5" fill="#3178c6"/>
+        <text x="302" y="932.0" font-size="12" fill="#cdd6f4">TypeScript</text>
+      </g>
+      <g opacity="0">
+        <animate attributeName="opacity" begin="10.97s" dur="0.15s" to="1" fill="freeze"/>
+        <rect x="390" y="915.0" width="55" height="26" rx="13" fill="#11111b" stroke="#313244"/>
+        <circle cx="406" cy="928.0" r="5" fill="#f34b7d"/>
+        <text x="418" y="932.0" font-size="12" fill="#cdd6f4">C++</text>
+      </g>
+      <text x="70" y="970.0" opacity="0" fill="#cdd6f4">
+        <animate attributeName="opacity" begin="11.19s" dur="0.15s" to="1" fill="freeze"/>
+        <tspan fill="#fab387">SNAPSHOT</tspan>
+      </text>
+      <text x="90" y="992.0" opacity="0" fill="#cdd6f4">
+        <animate attributeName="opacity" begin="11.35s" dur="0.15s" to="1" fill="freeze"/>
+        <tspan fill="#585b70">Account</tspan><tspan fill="#585b70">     : </tspan><tspan fill="#89b4fa">github.com/MUSTAFA892</tspan>
+      </text>
+      <text x="90" y="1014.0" opacity="0" fill="#cdd6f4">
+        <animate attributeName="opacity" begin="11.51s" dur="0.15s" to="1" fill="freeze"/>
+        <tspan fill="#585b70">Focus</tspan><tspan fill="#585b70">       : </tspan>MERN stack builds + applied ML experiments
+      </text>
+      <text x="90" y="1036.0" opacity="0" fill="#cdd6f4">
+        <animate attributeName="opacity" begin="11.67s" dur="0.15s" to="1" fill="freeze"/>
+        <tspan fill="#585b70">LeetCode</tspan><tspan fill="#585b70">    : </tspan>mustafatinwala6 - active problem solver
+      </text>
+      <text x="620" y="970.0" opacity="0" fill="#cdd6f4">
+        <animate attributeName="opacity" begin="11.19s" dur="0.15s" to="1" fill="freeze"/>
+        <tspan fill="#fab387">FEATURED REPOS</tspan>
+      </text>
+      <text x="640" y="992.0" opacity="0" fill="#cdd6f4">
+        <animate attributeName="opacity" begin="11.35s" dur="0.15s" to="1" fill="freeze"/>
+        <tspan fill="#a6e3a1">Fireducks_Vs_Pandas</tspan>  — benchmarking Fireducks vs Pandas performance
+      </text>
+      <text x="640" y="1014.0" opacity="0" fill="#cdd6f4">
+        <animate attributeName="opacity" begin="11.51s" dur="0.15s" to="1" fill="freeze"/>
+        <tspan fill="#a6e3a1">FineTuning_LLMs_Unsloth</tspan>  — fine-tuning LLMs, Ollama-ready via Unsloth
+      </text>
+      <text x="70" y="1115.0" opacity="0" fill="#cdd6f4">
+        <animate attributeName="opacity" begin="11.93s" dur="0.20s" to="1" fill="freeze"/>
+        <tspan fill="#585b70">*</tspan><tspan fill="#585b70"> live contribution graph, streaks &amp; top-language %'s are rendered dynamically further down in the README</tspan>
+      </text>
+      <text x="32" y="1187.0" opacity="0">
+        <animate attributeName="opacity" begin="12.09s" dur="0.15s" to="1" fill="freeze"/>
+        <tspan fill="#a6e3a1">guest@mustafa</tspan><tspan fill="#585b70">:</tspan><tspan fill="#89b4fa">~</tspan><tspan fill="#585b70">$ </tspan>
+      </text>
+      <clipPath id="typeclip6">
+        <rect x="163.8" y="1173.0" width="0" height="20">
+          <animate attributeName="width" begin="12.24s" dur="0.67s" calcMode="discrete" keyTimes="0.0;0.0667;0.1333;0.2;0.2667;0.3333;0.4;0.4667;0.5333;0.6;0.6667;0.7333;0.8;0.8667;0.9333;1" values="0.0;7.8;15.5;23.2;31.0;38.8;46.5;54.2;62.0;69.8;77.5;85.2;93.0;100.8;108.5;156.2" fill="freeze"/>
+        </rect>
+      </clipPath>
+      <text x="163.8" y="1187.0" fill="#cba6f7" clip-path="url(#typeclip6)">cat contact.txt</text>
+      <rect x="163.8" y="1174.0" width="7" height="16" fill="#f5e0dc" opacity="0">
+        <animate attributeName="opacity" begin="12.24s" dur="0.05s" to="1" fill="freeze"/>
+        <animate attributeName="x" begin="12.24s" dur="0.67s" calcMode="discrete" keyTimes="0.0;0.0667;0.1333;0.2;0.2667;0.3333;0.4;0.4667;0.5333;0.6;0.6667;0.7333;0.8;0.8667;0.9333;1" values="163.8;171.5;179.2;187.0;194.8;202.5;210.2;218.0;225.8;233.5;241.2;249.0;256.8;264.5;272.2;280.0" fill="freeze"/>
+        <animate attributeName="opacity" begin="12.92s" dur="0.35s" values="1;0;1;0" fill="freeze"/>
+        <animate attributeName="opacity" begin="13.27s" dur="0.1s" to="0" fill="freeze"/>
+      </rect>
+      <text x="50" y="1207.0" opacity="0" fill="#cdd6f4">
+        <animate attributeName="opacity" begin="13.10s" dur="0.15s" to="1" fill="freeze"/>
+        <tspan fill="#a6e3a1">LinkedIn</tspan><tspan fill="#585b70">    → </tspan><tspan fill="#89b4fa">linkedin.com/in/mustafa-a-904747283</tspan>
+      </text>
+      <text x="50" y="1227.0" opacity="0" fill="#cdd6f4">
+        <animate attributeName="opacity" begin="13.26s" dur="0.15s" to="1" fill="freeze"/>
+        <tspan fill="#a6e3a1">Gmail</tspan><tspan fill="#585b70">       → </tspan><tspan fill="#89b4fa">mustafatinwala6@gmail.com</tspan>
+      </text>
+      <text x="50" y="1247.0" opacity="0" fill="#cdd6f4">
+        <animate attributeName="opacity" begin="13.42s" dur="0.15s" to="1" fill="freeze"/>
+        <tspan fill="#a6e3a1">Portfolio</tspan><tspan fill="#585b70">   → </tspan><tspan fill="#89b4fa">port-folio-nine-ruddy.vercel.app</tspan>
+      </text>
+      <text x="50" y="1267.0" opacity="0" fill="#cdd6f4">
+        <animate attributeName="opacity" begin="13.58s" dur="0.15s" to="1" fill="freeze"/>
+        <tspan fill="#a6e3a1">Discord</tspan><tspan fill="#585b70">     → </tspan>mustafa5253
+      </text>
+      <text x="50" y="1287.0" opacity="0" fill="#cdd6f4">
+        <animate attributeName="opacity" begin="13.74s" dur="0.15s" to="1" fill="freeze"/>
+        <tspan fill="#a6e3a1">Instagram</tspan><tspan fill="#585b70">   → </tspan><tspan fill="#89b4fa">_.mustafa._52</tspan>
+      </text>
+      <text x="32" y="1337.0" opacity="0">
+        <animate attributeName="opacity" begin="13.90s" dur="0.2s" to="1" fill="freeze"/>
+        <tspan fill="#a6e3a1">guest@mustafa</tspan><tspan fill="#585b70">:</tspan><tspan fill="#89b4fa">~</tspan><tspan fill="#585b70">$ </tspan>
+      </text>
+      <rect x="163.8" y="1322.0" width="9" height="18" fill="#cdd6f4" opacity="0">
+        <animate attributeName="opacity" begin="14.20s" values="1;1;0;0" keyTimes="0;0.5;0.51;1" dur="0.9s" repeatCount="indefinite"/>
+      </rect>
+      <text x="50" y="1377.0" opacity="0" fill="#cdd6f4">
+        <animate attributeName="opacity" begin="14.50s" dur="0.30s" to="1" fill="freeze"/>
+        <tspan fill="#fab387">→</tspan> Always building • Always learning • Always shipping
+      </text>
 
     </g>
   </g>
 
   <!-- outer stroke -->
-  <rect x="1" y="1" width="938" height="758" rx="18" ry="18" fill="none" stroke="#11111b" stroke-width="2"/>
+  <rect x="1.5" y="1.5" width="1197" height="1434.0" rx="20" ry="20" fill="none" stroke="#11111b" stroke-width="3"/>
 </svg>
