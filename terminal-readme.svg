@@ -1,0 +1,182 @@
+<svg viewBox="0 0 940 760" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" font-family="'SF Mono','Cascadia Code','Fira Code',Consolas,Monaco,monospace">
+
+  <defs>
+    <clipPath id="winclip">
+      <rect x="0" y="0" width="940" height="760" rx="18" ry="18"/>
+    </clipPath>
+
+    <linearGradient id="hyprBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"  stop-color="#f38ba8"/>
+      <stop offset="25%" stop-color="#fab387"/>
+      <stop offset="50%" stop-color="#a6e3a1"/>
+      <stop offset="75%" stop-color="#89b4fa"/>
+      <stop offset="100%" stop-color="#cba6f7"/>
+      <animateTransform attributeName="gradientTransform" type="translate"
+        values="-940 0; 0 0; 940 0" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <radialGradient id="glow" cx="50%" cy="0%" r="80%">
+      <stop offset="0%" stop-color="#cba6f7" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#cba6f7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- ===== window body ===== -->
+  <g clip-path="url(#winclip)">
+    <rect x="0" y="0" width="940" height="760" fill="#1e1e2e"/>
+    <rect x="0" y="0" width="940" height="760" fill="url(#glow)"/>
+
+    <!-- hyprland-style animated gradient active border -->
+    <rect x="0" y="0" width="940" height="4" fill="url(#hyprBorder)"/>
+
+    <!-- title bar -->
+    <rect x="0" y="4" width="940" height="38" fill="#181825"/>
+    <line x1="0" y1="42" x2="940" y2="42" stroke="#313244" stroke-width="1"/>
+
+    <circle cx="28" cy="23" r="6.5" fill="#f38ba8"/>
+    <circle cx="50" cy="23" r="6.5" fill="#f9e2af"/>
+    <circle cx="72" cy="23" r="6.5" fill="#a6e3a1"/>
+
+    <text x="470" y="27" text-anchor="middle" font-size="13" fill="#a6adc8">mustafa@hyprland: ~  —  kitty</text>
+    <text x="908" y="27" text-anchor="end" font-size="12" fill="#585b70">100% ● zsh</text>
+
+    <!-- ================= CONTENT ================= -->
+    <g font-size="14" xml:space="preserve">
+
+      <!-- block 1 : whoami -->
+      <text x="28" y="78" opacity="0">
+        <animate attributeName="opacity" begin="0.4s" dur="0.25s" to="1" fill="freeze"/>
+        <tspan fill="#a6e3a1">guest@mustafa</tspan><tspan fill="#585b70">:</tspan><tspan fill="#89b4fa">~</tspan><tspan fill="#585b70">$ </tspan><tspan fill="#cba6f7">neofetch --whoami</tspan>
+      </text>
+
+      <text x="46" y="100" opacity="0" fill="#cdd6f4">
+        <animate attributeName="opacity" begin="1.0s" dur="0.2s" to="1" fill="freeze"/>
+        <tspan fill="#fab387">Name        </tspan> Mustafa A.
+      </text>
+      <text x="46" y="122" opacity="0" fill="#cdd6f4">
+        <animate attributeName="opacity" begin="1.3s" dur="0.2s" to="1" fill="freeze"/>
+        <tspan fill="#fab387">Role        </tspan> AI/ML Developer | Full-Stack Engineer (MERN)
+      </text>
+      <text x="46" y="144" opacity="0" fill="#cdd6f4">
+        <animate attributeName="opacity" begin="1.6s" dur="0.2s" to="1" fill="freeze"/>
+        <tspan fill="#fab387">Education   </tspan> AI Undergrad @ KGiSL Institute of Technology (2023–2027)
+      </text>
+      <text x="46" y="166" opacity="0" fill="#cdd6f4">
+        <animate attributeName="opacity" begin="1.9s" dur="0.2s" to="1" fill="freeze"/>
+        <tspan fill="#fab387">Company     </tspan> Developer @ NovaCorp
+      </text>
+      <text x="46" y="188" opacity="0" fill="#cdd6f4">
+        <animate attributeName="opacity" begin="2.2s" dur="0.2s" to="1" fill="freeze"/>
+        <tspan fill="#fab387">Focus       </tspan> MERN · Flask APIs · AI Integration · Cloud Deploy
+      </text>
+
+      <!-- block 2 : skills -->
+      <text x="28" y="222" opacity="0">
+        <animate attributeName="opacity" begin="2.9s" dur="0.25s" to="1" fill="freeze"/>
+        <tspan fill="#a6e3a1">guest@mustafa</tspan><tspan fill="#585b70">:</tspan><tspan fill="#89b4fa">~</tspan><tspan fill="#585b70">$ </tspan><tspan fill="#cba6f7">ls ./skills --tree</tspan>
+      </text>
+
+      <text x="46" y="244" opacity="0" fill="#cdd6f4">
+        <animate attributeName="opacity" begin="3.5s" dur="0.2s" to="1" fill="freeze"/>
+        <tspan fill="#89b4fa">Languages/Frameworks </tspan> Python · JavaScript · Node.js · React · Express · Django
+      </text>
+      <text x="46" y="266" opacity="0" fill="#cdd6f4">
+        <animate attributeName="opacity" begin="3.8s" dur="0.2s" to="1" fill="freeze"/>
+        <tspan fill="#89b4fa">AI / ML              </tspan> TensorFlow · Scikit-learn · OpenCV · Pandas · NumPy
+      </text>
+      <text x="46" y="288" opacity="0" fill="#cdd6f4">
+        <animate attributeName="opacity" begin="4.1s" dur="0.2s" to="1" fill="freeze"/>
+        <tspan fill="#89b4fa">Databases            </tspan> MongoDB · MySQL · PostgreSQL
+      </text>
+      <text x="46" y="310" opacity="0" fill="#cdd6f4">
+        <animate attributeName="opacity" begin="4.4s" dur="0.2s" to="1" fill="freeze"/>
+        <tspan fill="#89b4fa">Cloud / DevOps       </tspan> Firebase · GCP · Docker · Git
+      </text>
+
+      <!-- block 3 : luffy neofetch -->
+      <text x="28" y="344" opacity="0">
+        <animate attributeName="opacity" begin="5.1s" dur="0.25s" to="1" fill="freeze"/>
+        <tspan fill="#a6e3a1">guest@mustafa</tspan><tspan fill="#585b70">:</tspan><tspan fill="#89b4fa">~</tspan><tspan fill="#585b70">$ </tspan><tspan fill="#cba6f7">neofetch --luffy</tspan>
+      </text>
+
+      <g opacity="0">
+        <animate attributeName="opacity" begin="5.6s" dur="0.3s" to="1" fill="freeze"/>
+
+        <!-- ascii art (monospace, small) -->
+        <g font-size="13.5" fill="#f9e2af">
+          <text x="46"  y="368">    __,,--~~~~--,,__</text>
+          <text x="46"  y="386">  ,-'              '-,</text>
+          <!-- eyes: open state -->
+          <g>
+            <text x="46" y="404" fill="#cdd6f4"> /     o          o    \</text>
+            <animate attributeName="opacity" values="1;1;0;1" keyTimes="0;0.85;0.9;1" dur="4s" begin="5.9s" repeatCount="indefinite"/>
+          </g>
+          <!-- eyes: closed state (blink) -->
+          <g>
+            <text x="46" y="404" fill="#cdd6f4"> /     ‑          ‑    \</text>
+            <animate attributeName="opacity" values="0;0;1;0" keyTimes="0;0.85;0.9;1" dur="4s" begin="5.9s" repeatCount="indefinite"/>
+          </g>
+
+          <text x="46" y="422" fill="#cdd6f4">|         \___/         |</text>
+          <text x="46" y="440" fill="#cdd6f4"> \                    /</text>
+          <text x="46" y="458">  '--,,________,,--'</text>
+
+          <text x="46" y="480" fill="#f38ba8" font-weight="bold">
+            <animate attributeName="fill" values="#f38ba8;#fab387;#cba6f7;#f38ba8" dur="3s" begin="5.9s" repeatCount="indefinite"/>
+            <animateTransform attributeName="transform" type="translate" values="0 0;0 -1.5;0 0" dur="1.6s" begin="5.9s" repeatCount="indefinite"/>
+            &#160;&#160;&#160;&#160;&#160;[ GEAR 5 ]
+          </text>
+        </g>
+
+        <!-- neofetch-style info column -->
+        <text x="340" y="368" fill="#cdd6f4"><tspan fill="#89b4fa">Captain  </tspan> Monkey D. Luffy</text>
+        <text x="340" y="388" fill="#cdd6f4"><tspan fill="#89b4fa">Crew     </tspan> Straw Hat Pirates</text>
+        <text x="340" y="408" fill="#cdd6f4"><tspan fill="#89b4fa">Bounty   </tspan> ₿ 3,000,000,000</text>
+        <text x="340" y="428" fill="#cdd6f4"><tspan fill="#89b4fa">Dream    </tspan> King of the Pirates!</text>
+        <text x="340" y="448" fill="#cdd6f4"><tspan fill="#89b4fa">Gear     </tspan> FIVE — Awakened</text>
+        <text x="340" y="468" fill="#cdd6f4"><tspan fill="#89b4fa">Status   </tspan> Nika Unleashed</text>
+      </g>
+
+      <!-- block 4 : contact -->
+      <text x="28" y="520" opacity="0">
+        <animate attributeName="opacity" begin="7.5s" dur="0.25s" to="1" fill="freeze"/>
+        <tspan fill="#a6e3a1">guest@mustafa</tspan><tspan fill="#585b70">:</tspan><tspan fill="#89b4fa">~</tspan><tspan fill="#585b70">$ </tspan><tspan fill="#cba6f7">cat contact.txt</tspan>
+      </text>
+
+      <text x="46" y="542" opacity="0" fill="#cdd6f4">
+        <animate attributeName="opacity" begin="8.0s" dur="0.2s" to="1" fill="freeze"/>
+        <tspan fill="#a6e3a1">LinkedIn   </tspan><tspan fill="#585b70"> -&gt; </tspan>linkedin.com/in/mustafa-a-904747283
+      </text>
+      <text x="46" y="564" opacity="0" fill="#cdd6f4">
+        <animate attributeName="opacity" begin="8.3s" dur="0.2s" to="1" fill="freeze"/>
+        <tspan fill="#a6e3a1">Gmail      </tspan><tspan fill="#585b70"> -&gt; </tspan>mustafatinwala6@gmail.com
+      </text>
+      <text x="46" y="586" opacity="0" fill="#cdd6f4">
+        <animate attributeName="opacity" begin="8.6s" dur="0.2s" to="1" fill="freeze"/>
+        <tspan fill="#a6e3a1">Portfolio  </tspan><tspan fill="#585b70"> -&gt; </tspan>port-folio-nine-ruddy.vercel.app
+      </text>
+      <text x="46" y="608" opacity="0" fill="#cdd6f4">
+        <animate attributeName="opacity" begin="8.9s" dur="0.2s" to="1" fill="freeze"/>
+        <tspan fill="#a6e3a1">Discord    </tspan><tspan fill="#585b70"> -&gt; </tspan>mustafa5253
+      </text>
+      <text x="46" y="630" opacity="0" fill="#cdd6f4">
+        <animate attributeName="opacity" begin="9.2s" dur="0.2s" to="1" fill="freeze"/>
+        <tspan fill="#a6e3a1">Instagram  </tspan><tspan fill="#585b70"> -&gt; </tspan>_.mustafa._52
+      </text>
+
+      <!-- final prompt + blinking cursor -->
+      <text x="28" y="664" opacity="0">
+        <animate attributeName="opacity" begin="9.9s" dur="0.25s" to="1" fill="freeze"/>
+        <tspan fill="#a6e3a1">guest@mustafa</tspan><tspan fill="#585b70">:</tspan><tspan fill="#89b4fa">~</tspan><tspan fill="#585b70">$ </tspan>
+      </text>
+
+      <rect x="118" y="652" width="9" height="16" fill="#cdd6f4" opacity="0">
+        <animate attributeName="opacity" begin="10.1s" values="1;1;0;0" keyTimes="0;0.5;0.51;1" dur="1s" repeatCount="indefinite"/>
+      </rect>
+
+    </g>
+  </g>
+
+  <!-- outer stroke -->
+  <rect x="1" y="1" width="938" height="758" rx="18" ry="18" fill="none" stroke="#11111b" stroke-width="2"/>
+</svg>
