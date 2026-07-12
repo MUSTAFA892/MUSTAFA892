@@ -18,6 +18,10 @@
       <stop offset="0%" stop-color="#cba6f7" stop-opacity="0.08"/>
       <stop offset="100%" stop-color="#cba6f7" stop-opacity="0"/>
     </radialGradient>
+
+    <clipPath id="luffyclip">
+      <rect x="850" y="65" width="300" height="133" rx="12" ry="12"/>
+    </clipPath>
   </defs>
 
   <!-- ===== WINDOW BODY ===== -->
@@ -37,7 +41,16 @@
     <circle cx="88" cy="27.5" r="8" fill="#a6e3a1"/>
 
     <text x="600" y="32" text-anchor="middle" font-size="14" fill="#a6adc8" font-weight="500">mustafa@hyprland ~ zsh</text>
-    <text x="1160" y="32" text-anchor="end" font-size="12" fill="#585b70">100% ⚡</text>
+    <text x="1160" y="32" text-anchor="end" font-size="12" fill="#585b70">100% &#9889;</text>
+
+    <!-- ===== SIDE CARD: Gear 5 ===== -->
+    <g opacity="0">
+      <animate attributeName="opacity" begin="0.30s" dur="0.5s" to="1" fill="freeze"/>
+      <rect x="847" y="62" width="306" height="139" rx="14" ry="14" fill="#11111b" stroke="#313244" stroke-width="1.5"/>
+      <image href="https://github.com/user-attachments/assets/36636db2-e283-4481-bc90-6b095e41750a" x="850" y="65" width="300" height="133" preserveAspectRatio="xMidYMid slice" clip-path="url(#luffyclip)"/>
+      <rect x="850" y="65" width="300" height="133" rx="12" ry="12" fill="none" stroke="#cba6f7" stroke-width="1" opacity="0.4"/>
+      <text x="1000" y="220" text-anchor="middle" font-size="11" fill="#585b70">&#9876;&#65039; Gear 5 &#8212; unlocked</text>
+    </g>
 
     <!-- ================= CONTENT ================= -->
     <g font-size="13" xml:space="preserve">
@@ -67,11 +80,11 @@
       </text>
       <text x="50" y="145" opacity="0" fill="#cdd6f4">
         <animate attributeName="opacity" begin="1.71s" dur="0.15s" to="1" fill="freeze"/>
-        <tspan fill="#fab387">Education</tspan><tspan fill="#585b70">   : </tspan>AI Undergraduate @ KGiSL Institute of Technology (2023–2027)
+        <tspan fill="#fab387">Education</tspan><tspan fill="#585b70">   : </tspan>AI Undergraduate @ KGiSL Institute of Technology (2023&#8211;2027)
       </text>
       <text x="50" y="165" opacity="0" fill="#cdd6f4">
         <animate attributeName="opacity" begin="1.87s" dur="0.15s" to="1" fill="freeze"/>
-        <tspan fill="#fab387">Employer</tspan><tspan fill="#585b70">    : </tspan>NovaCorp — Building Tailored Solutions
+        <tspan fill="#fab387">Employer</tspan><tspan fill="#585b70">    : </tspan>NovaCorp &#8212; Building Tailored Solutions
       </text>
       <text x="50" y="185" opacity="0" fill="#cdd6f4">
         <animate attributeName="opacity" begin="2.03s" dur="0.15s" to="1" fill="freeze"/>
