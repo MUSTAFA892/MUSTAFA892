@@ -1,3 +1,4 @@
+<img src="https://github.com/user-attachments/assets/36636db2-e283-4481-bc90-6b095e41750a" alt="Luffy’s Peak - Attained! GEAR FIVE" width="900" height="400" style="border-radius: 15px;" /> 
 <div align="center">
 
 <img src="./terminal-readme.svg" alt="mustafa terminal session" width="100%" />
