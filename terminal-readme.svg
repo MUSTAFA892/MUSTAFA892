@@ -47,7 +47,15 @@
     <g opacity="0">
       <animate attributeName="opacity" begin="0.30s" dur="0.5s" to="1" fill="freeze"/>
       <rect x="847" y="62" width="306" height="139" rx="14" ry="14" fill="#11111b" stroke="#313244" stroke-width="1.5"/>
-      <image href="bleach-bleach-anime.mp4" x="850" y="65" width="300" height="133" preserveAspectRatio="xMidYMid slice" clip-path="url(#luffyclip)"/>
+      <image
+    href="bleach.gif"
+    x="850"
+    y="65"
+    width="300"
+    height="133"
+    preserveAspectRatio="xMidYMid slice"
+    clip-path="url(#luffyclip)"
+/>
       <rect x="850" y="65" width="300" height="133" rx="12" ry="12" fill="none" stroke="#cba6f7" stroke-width="1" opacity="0.4"/>
       <text x="1000" y="220" text-anchor="middle" font-size="11" fill="#585b70">&#9876;&#65039; Gear 5 &#8212; unlocked</text>
     </g>
