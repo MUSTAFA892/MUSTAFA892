@@ -40,41 +40,24 @@
     <circle cx="60" cy="27.5" r="8" fill="#f9e2af"/>
     <circle cx="88" cy="27.5" r="8" fill="#a6e3a1"/>
 
-    <text x="600" y="32" text-anchor="middle" font-size="14" fill="#a6adc8" font-weight="500">mustafa@hyprland ~ zsh</text>
-    <text x="1160" y="32" text-anchor="end" font-size="12" fill="#585b70">100% &#9889;</text>
-
-    <!-- ===== SIDE CARD: Gear 5 ===== -->
-    <g opacity="0">
-      <animate attributeName="opacity" begin="0.30s" dur="0.5s" to="1" fill="freeze"/>
-      <rect x="847" y="62" width="306" height="139" rx="14" ry="14" fill="#11111b" stroke="#313244" stroke-width="1.5"/>
-      <image
-    href="bleach.gif"
-    x="850"
-    y="65"
-    width="300"
-    height="133"
-    preserveAspectRatio="xMidYMid slice"
-    clip-path="url(#luffyclip)"
-/>
-      <rect x="850" y="65" width="300" height="133" rx="12" ry="12" fill="none" stroke="#cba6f7" stroke-width="1" opacity="0.4"/>
-      <text x="1000" y="220" text-anchor="middle" font-size="11" fill="#585b70">&#9876;&#65039; Gear 5 &#8212; unlocked</text>
-    </g>
+    <text x="600" y="32" text-anchor="middle" font-size="16" fill="#a6adc8" font-weight="500">mustafa@hyprland ~ zsh</text>
+    <text x="1160" y="32" text-anchor="end" font-size="13" fill="#585b70">100% &#9889;</text>
 
     <!-- ================= CONTENT ================= -->
-    <g font-size="13" xml:space="preserve">
+    <g font-size="15" xml:space="preserve">
       <text x="32" y="85" opacity="0">
         <animate attributeName="opacity" begin="0.30s" dur="0.15s" to="1" fill="freeze"/>
         <tspan fill="#a6e3a1">guest@mustafa</tspan><tspan fill="#585b70">:</tspan><tspan fill="#89b4fa">~</tspan><tspan fill="#585b70">$ </tspan>
       </text>
       <clipPath id="typeclip1">
-        <rect x="163.8" y="71" width="0" height="20">
-          <animate attributeName="width" begin="0.45s" dur="0.77s" calcMode="discrete" keyTimes="0.0;0.0588;0.1176;0.1765;0.2353;0.2941;0.3529;0.4118;0.4706;0.5294;0.5882;0.6471;0.7059;0.7647;0.8235;0.8824;0.9412;1" values="0.0;7.8;15.5;23.2;31.0;38.8;46.5;54.2;62.0;69.8;77.5;85.2;93.0;100.8;108.5;116.2;124.0;171.8" fill="freeze"/>
+        <rect x="184.1" y="71" width="0" height="23">
+          <animate attributeName="width" begin="0.45s" dur="0.77s" calcMode="discrete" keyTimes="0.0;0.0588;0.1176;0.1765;0.2353;0.2941;0.3529;0.4118;0.4706;0.5294;0.5882;0.6471;0.7059;0.7647;0.8235;0.8824;0.9412;1" values="0.0;9.0;17.9;26.8;35.8;44.8;53.7;62.5;71.5;80.5;89.4;98.3;107.3;116.3;125.2;134.1;143.1;198.2" fill="freeze"/>
         </rect>
       </clipPath>
-      <text x="163.8" y="85" fill="#cba6f7" clip-path="url(#typeclip1)">whoami --detailed</text>
-      <rect x="163.8" y="72" width="7" height="16" fill="#f5e0dc" opacity="0">
+      <text x="184.1" y="85" fill="#cba6f7" clip-path="url(#typeclip1)">whoami --detailed</text>
+      <rect x="184.1" y="72" width="8" height="18" fill="#f5e0dc" opacity="0">
         <animate attributeName="opacity" begin="0.45s" dur="0.05s" to="1" fill="freeze"/>
-        <animate attributeName="x" begin="0.45s" dur="0.77s" calcMode="discrete" keyTimes="0.0;0.0588;0.1176;0.1765;0.2353;0.2941;0.3529;0.4118;0.4706;0.5294;0.5882;0.6471;0.7059;0.7647;0.8235;0.8824;0.9412;1" values="163.8;171.5;179.2;187.0;194.8;202.5;210.2;218.0;225.8;233.5;241.2;249.0;256.8;264.5;272.2;280.0;287.8;295.5" fill="freeze"/>
+        <animate attributeName="x" begin="0.45s" dur="0.77s" calcMode="discrete" keyTimes="0.0;0.0588;0.1176;0.1765;0.2353;0.2941;0.3529;0.4118;0.4706;0.5294;0.5882;0.6471;0.7059;0.7647;0.8235;0.8824;0.9412;1" values="184.1;193.0;201.8;210.8;219.8;228.7;237.6;246.6;255.6;264.5;273.4;282.4;291.4;300.3;309.2;318.2;327.2;336.0" fill="freeze"/>
         <animate attributeName="opacity" begin="1.21s" dur="0.35s" values="1;0;1;0" fill="freeze"/>
         <animate attributeName="opacity" begin="1.56s" dur="0.1s" to="0" fill="freeze"/>
       </rect>
@@ -103,14 +86,14 @@
         <tspan fill="#a6e3a1">guest@mustafa</tspan><tspan fill="#585b70">:</tspan><tspan fill="#89b4fa">~</tspan><tspan fill="#585b70">$ </tspan>
       </text>
       <clipPath id="typeclip2">
-        <rect x="163.8" y="211" width="0" height="20">
-          <animate attributeName="width" begin="2.34s" dur="0.54s" calcMode="discrete" keyTimes="0.0;0.0833;0.1667;0.25;0.3333;0.4167;0.5;0.5833;0.6667;0.75;0.8333;0.9167;1" values="0.0;7.8;15.5;23.2;31.0;38.8;46.5;54.2;62.0;69.8;77.5;85.2;133.0" fill="freeze"/>
+        <rect x="184.1" y="211" width="0" height="23">
+          <animate attributeName="width" begin="2.34s" dur="0.54s" calcMode="discrete" keyTimes="0.0;0.0833;0.1667;0.25;0.3333;0.4167;0.5;0.5833;0.6667;0.75;0.8333;0.9167;1" values="0.0;9.0;17.9;26.8;35.8;44.8;53.7;62.5;71.5;80.5;89.4;98.3;153.5" fill="freeze"/>
         </rect>
       </clipPath>
-      <text x="163.8" y="225" fill="#cba6f7" clip-path="url(#typeclip2)">cat about.md</text>
-      <rect x="163.8" y="212" width="7" height="16" fill="#f5e0dc" opacity="0">
+      <text x="184.1" y="225" fill="#cba6f7" clip-path="url(#typeclip2)">cat about.md</text>
+      <rect x="184.1" y="212" width="8" height="18" fill="#f5e0dc" opacity="0">
         <animate attributeName="opacity" begin="2.34s" dur="0.05s" to="1" fill="freeze"/>
-        <animate attributeName="x" begin="2.34s" dur="0.54s" calcMode="discrete" keyTimes="0.0;0.0833;0.1667;0.25;0.3333;0.4167;0.5;0.5833;0.6667;0.75;0.8333;0.9167;1" values="163.8;171.5;179.2;187.0;194.8;202.5;210.2;218.0;225.8;233.5;241.2;249.0;256.8" fill="freeze"/>
+        <animate attributeName="x" begin="2.34s" dur="0.54s" calcMode="discrete" keyTimes="0.0;0.0833;0.1667;0.25;0.3333;0.4167;0.5;0.5833;0.6667;0.75;0.8333;0.9167;1" values="184.1;193.0;201.8;210.8;219.8;228.7;237.6;246.6;255.6;264.5;273.4;282.4;291.4" fill="freeze"/>
         <animate attributeName="opacity" begin="2.88s" dur="0.35s" values="1;0;1;0" fill="freeze"/>
         <animate attributeName="opacity" begin="3.23s" dur="0.1s" to="0" fill="freeze"/>
       </rect>
@@ -143,14 +126,14 @@
         <tspan fill="#a6e3a1">guest@mustafa</tspan><tspan fill="#585b70">:</tspan><tspan fill="#89b4fa">~</tspan><tspan fill="#585b70">$ </tspan>
       </text>
       <clipPath id="typeclip3">
-        <rect x="163.8" y="383.0" width="0" height="20">
-          <animate attributeName="width" begin="4.18s" dur="0.81s" calcMode="discrete" keyTimes="0.0;0.0556;0.1111;0.1667;0.2222;0.2778;0.3333;0.3889;0.4444;0.5;0.5556;0.6111;0.6667;0.7222;0.7778;0.8333;0.8889;0.9444;1" values="0.0;7.8;15.5;23.2;31.0;38.8;46.5;54.2;62.0;69.8;77.5;85.2;93.0;100.8;108.5;116.2;124.0;131.8;179.5" fill="freeze"/>
+        <rect x="184.1" y="383.0" width="0" height="23">
+          <animate attributeName="width" begin="4.18s" dur="0.81s" calcMode="discrete" keyTimes="0.0;0.0556;0.1111;0.1667;0.2222;0.2778;0.3333;0.3889;0.4444;0.5;0.5556;0.6111;0.6667;0.7222;0.7778;0.8333;0.8889;0.9444;1" values="0.0;9.0;17.9;26.8;35.8;44.8;53.7;62.5;71.5;80.5;89.4;98.3;107.3;116.3;125.2;134.1;143.1;152.1;207.1" fill="freeze"/>
         </rect>
       </clipPath>
-      <text x="163.8" y="397.0" fill="#cba6f7" clip-path="url(#typeclip3)">cat focus-areas.md</text>
-      <rect x="163.8" y="384.0" width="7" height="16" fill="#f5e0dc" opacity="0">
+      <text x="184.1" y="397.0" fill="#cba6f7" clip-path="url(#typeclip3)">cat focus-areas.md</text>
+      <rect x="184.1" y="384.0" width="8" height="18" fill="#f5e0dc" opacity="0">
         <animate attributeName="opacity" begin="4.18s" dur="0.05s" to="1" fill="freeze"/>
-        <animate attributeName="x" begin="4.18s" dur="0.81s" calcMode="discrete" keyTimes="0.0;0.0556;0.1111;0.1667;0.2222;0.2778;0.3333;0.3889;0.4444;0.5;0.5556;0.6111;0.6667;0.7222;0.7778;0.8333;0.8889;0.9444;1" values="163.8;171.5;179.2;187.0;194.8;202.5;210.2;218.0;225.8;233.5;241.2;249.0;256.8;264.5;272.2;280.0;287.8;295.5;303.2" fill="freeze"/>
+        <animate attributeName="x" begin="4.18s" dur="0.81s" calcMode="discrete" keyTimes="0.0;0.0556;0.1111;0.1667;0.2222;0.2778;0.3333;0.3889;0.4444;0.5;0.5556;0.6111;0.6667;0.7222;0.7778;0.8333;0.8889;0.9444;1" values="184.1;193.0;201.8;210.8;219.8;228.7;237.6;246.6;255.6;264.5;273.4;282.4;291.4;300.3;309.2;318.2;327.2;336.0;344.9" fill="freeze"/>
         <animate attributeName="opacity" begin="4.99s" dur="0.35s" values="1;0;1;0" fill="freeze"/>
         <animate attributeName="opacity" begin="5.33s" dur="0.1s" to="0" fill="freeze"/>
       </rect>
@@ -179,14 +162,14 @@
         <tspan fill="#a6e3a1">guest@mustafa</tspan><tspan fill="#585b70">:</tspan><tspan fill="#89b4fa">~</tspan><tspan fill="#585b70">$ </tspan>
       </text>
       <clipPath id="typeclip4">
-        <rect x="163.8" y="523.0" width="0" height="20">
-          <animate attributeName="width" begin="6.12s" dur="0.99s" calcMode="discrete" keyTimes="0.0;0.0455;0.0909;0.1364;0.1818;0.2273;0.2727;0.3182;0.3636;0.4091;0.4545;0.5;0.5455;0.5909;0.6364;0.6818;0.7273;0.7727;0.8182;0.8636;0.9091;0.9545;1" values="0.0;7.8;15.5;23.2;31.0;38.8;46.5;54.2;62.0;69.8;77.5;85.2;93.0;100.8;108.5;116.2;124.0;131.8;139.5;147.2;155.0;162.8;210.5" fill="freeze"/>
+        <rect x="184.1" y="523.0" width="0" height="23">
+          <animate attributeName="width" begin="6.12s" dur="0.99s" calcMode="discrete" keyTimes="0.0;0.0455;0.0909;0.1364;0.1818;0.2273;0.2727;0.3182;0.3636;0.4091;0.4545;0.5;0.5455;0.5909;0.6364;0.6818;0.7273;0.7727;0.8182;0.8636;0.9091;0.9545;1" values="0.0;9.0;17.9;26.8;35.8;44.8;53.7;62.5;71.5;80.5;89.4;98.3;107.3;116.3;125.2;134.1;143.1;152.1;161.0;169.8;178.8;187.8;242.9" fill="freeze"/>
         </rect>
       </clipPath>
-      <text x="163.8" y="537.0" fill="#cba6f7" clip-path="url(#typeclip4)">ls ./tech-stack --tree</text>
-      <rect x="163.8" y="524.0" width="7" height="16" fill="#f5e0dc" opacity="0">
+      <text x="184.1" y="537.0" fill="#cba6f7" clip-path="url(#typeclip4)">ls ./tech-stack --tree</text>
+      <rect x="184.1" y="524.0" width="8" height="18" fill="#f5e0dc" opacity="0">
         <animate attributeName="opacity" begin="6.12s" dur="0.05s" to="1" fill="freeze"/>
-        <animate attributeName="x" begin="6.12s" dur="0.99s" calcMode="discrete" keyTimes="0.0;0.0455;0.0909;0.1364;0.1818;0.2273;0.2727;0.3182;0.3636;0.4091;0.4545;0.5;0.5455;0.5909;0.6364;0.6818;0.7273;0.7727;0.8182;0.8636;0.9091;0.9545;1" values="163.8;171.5;179.2;187.0;194.8;202.5;210.2;218.0;225.8;233.5;241.2;249.0;256.8;264.5;272.2;280.0;287.8;295.5;303.2;311.0;318.8;326.5;334.2" fill="freeze"/>
+        <animate attributeName="x" begin="6.12s" dur="0.99s" calcMode="discrete" keyTimes="0.0;0.0455;0.0909;0.1364;0.1818;0.2273;0.2727;0.3182;0.3636;0.4091;0.4545;0.5;0.5455;0.5909;0.6364;0.6818;0.7273;0.7727;0.8182;0.8636;0.9091;0.9545;1" values="184.1;193.0;201.8;210.8;219.8;228.7;237.6;246.6;255.6;264.5;273.4;282.4;291.4;300.3;309.2;318.2;327.2;336.0;344.9;353.9;362.9;371.8;380.7" fill="freeze"/>
         <animate attributeName="opacity" begin="7.11s" dur="0.35s" values="1;0;1;0" fill="freeze"/>
         <animate attributeName="opacity" begin="7.46s" dur="0.1s" to="0" fill="freeze"/>
       </rect>
@@ -239,18 +222,19 @@
         <tspan fill="#a6e3a1">guest@mustafa</tspan><tspan fill="#585b70">:</tspan><tspan fill="#89b4fa">~</tspan><tspan fill="#585b70">$ </tspan>
       </text>
       <clipPath id="typeclip5">
-        <rect x="163.8" y="808.0" width="0" height="20">
-          <animate attributeName="width" begin="9.20s" dur="0.90s" calcMode="discrete" keyTimes="0.0;0.05;0.1;0.15;0.2;0.25;0.3;0.35;0.4;0.45;0.5;0.55;0.6;0.65;0.7;0.75;0.8;0.85;0.9;0.95;1" values="0.0;7.8;15.5;23.2;31.0;38.8;46.5;54.2;62.0;69.8;77.5;85.2;93.0;100.8;108.5;116.2;124.0;131.8;139.5;147.2;195.0" fill="freeze"/>
+        <rect x="184.1" y="808.0" width="0" height="23">
+          <animate attributeName="width" begin="9.20s" dur="0.90s" calcMode="discrete" keyTimes="0.0;0.05;0.1;0.15;0.2;0.25;0.3;0.35;0.4;0.45;0.5;0.55;0.6;0.65;0.7;0.75;0.8;0.85;0.9;0.95;1" values="0.0;9.0;17.9;26.8;35.8;44.8;53.7;62.5;71.5;80.5;89.4;98.3;107.3;116.3;125.2;134.1;143.1;152.1;161.0;169.8;225.0" fill="freeze"/>
         </rect>
       </clipPath>
-      <text x="163.8" y="822.0" fill="#cba6f7" clip-path="url(#typeclip5)">git stats MUSTAFA892</text>
-      <rect x="163.8" y="809.0" width="7" height="16" fill="#f5e0dc" opacity="0">
+      <text x="184.1" y="822.0" fill="#cba6f7" clip-path="url(#typeclip5)">git stats MUSTAFA892</text>
+      <rect x="184.1" y="809.0" width="8" height="18" fill="#f5e0dc" opacity="0">
         <animate attributeName="opacity" begin="9.20s" dur="0.05s" to="1" fill="freeze"/>
-        <animate attributeName="x" begin="9.20s" dur="0.90s" calcMode="discrete" keyTimes="0.0;0.05;0.1;0.15;0.2;0.25;0.3;0.35;0.4;0.45;0.5;0.55;0.6;0.65;0.7;0.75;0.8;0.85;0.9;0.95;1" values="163.8;171.5;179.2;187.0;194.8;202.5;210.2;218.0;225.8;233.5;241.2;249.0;256.8;264.5;272.2;280.0;287.8;295.5;303.2;311.0;318.8" fill="freeze"/>
+        <animate attributeName="x" begin="9.20s" dur="0.90s" calcMode="discrete" keyTimes="0.0;0.05;0.1;0.15;0.2;0.25;0.3;0.35;0.4;0.45;0.5;0.55;0.6;0.65;0.7;0.75;0.8;0.85;0.9;0.95;1" values="184.1;193.0;201.8;210.8;219.8;228.7;237.6;246.6;255.6;264.5;273.4;282.4;291.4;300.3;309.2;318.2;327.2;336.0;344.9;353.9;362.9" fill="freeze"/>
         <animate attributeName="opacity" begin="10.10s" dur="0.35s" values="1;0;1;0" fill="freeze"/>
         <animate attributeName="opacity" begin="10.45s" dur="0.1s" to="0" fill="freeze"/>
       </rect>
       <rect x="50" y="837.0" width="1120" height="300" fill="#181825" stroke="#313244" stroke-width="1" rx="10"/>
+      <g font-size="13">
       <text x="70" y="869.0" opacity="0" fill="#cdd6f4">
         <animate attributeName="opacity" begin="10.28s" dur="0.15s" to="1" fill="freeze"/>
         <tspan fill="#a6e3a1">GITHUB STATISTICS</tspan><tspan fill="#585b70">   MUSTAFA892</tspan>
@@ -313,19 +297,20 @@
         <animate attributeName="opacity" begin="11.93s" dur="0.20s" to="1" fill="freeze"/>
         <tspan fill="#585b70">*</tspan><tspan fill="#585b70"> live contribution graph, streaks &amp; top-language %'s are rendered dynamically further down in the README</tspan>
       </text>
+      </g>
       <text x="32" y="1187.0" opacity="0">
         <animate attributeName="opacity" begin="12.09s" dur="0.15s" to="1" fill="freeze"/>
         <tspan fill="#a6e3a1">guest@mustafa</tspan><tspan fill="#585b70">:</tspan><tspan fill="#89b4fa">~</tspan><tspan fill="#585b70">$ </tspan>
       </text>
       <clipPath id="typeclip6">
-        <rect x="163.8" y="1173.0" width="0" height="20">
-          <animate attributeName="width" begin="12.24s" dur="0.67s" calcMode="discrete" keyTimes="0.0;0.0667;0.1333;0.2;0.2667;0.3333;0.4;0.4667;0.5333;0.6;0.6667;0.7333;0.8;0.8667;0.9333;1" values="0.0;7.8;15.5;23.2;31.0;38.8;46.5;54.2;62.0;69.8;77.5;85.2;93.0;100.8;108.5;156.2" fill="freeze"/>
+        <rect x="184.1" y="1173.0" width="0" height="23">
+          <animate attributeName="width" begin="12.24s" dur="0.67s" calcMode="discrete" keyTimes="0.0;0.0667;0.1333;0.2;0.2667;0.3333;0.4;0.4667;0.5333;0.6;0.6667;0.7333;0.8;0.8667;0.9333;1" values="0.0;9.0;17.9;26.8;35.8;44.8;53.7;62.5;71.5;80.5;89.4;98.3;107.3;116.3;125.2;180.2" fill="freeze"/>
         </rect>
       </clipPath>
-      <text x="163.8" y="1187.0" fill="#cba6f7" clip-path="url(#typeclip6)">cat contact.txt</text>
-      <rect x="163.8" y="1174.0" width="7" height="16" fill="#f5e0dc" opacity="0">
+      <text x="184.1" y="1187.0" fill="#cba6f7" clip-path="url(#typeclip6)">cat contact.txt</text>
+      <rect x="184.1" y="1174.0" width="8" height="18" fill="#f5e0dc" opacity="0">
         <animate attributeName="opacity" begin="12.24s" dur="0.05s" to="1" fill="freeze"/>
-        <animate attributeName="x" begin="12.24s" dur="0.67s" calcMode="discrete" keyTimes="0.0;0.0667;0.1333;0.2;0.2667;0.3333;0.4;0.4667;0.5333;0.6;0.6667;0.7333;0.8;0.8667;0.9333;1" values="163.8;171.5;179.2;187.0;194.8;202.5;210.2;218.0;225.8;233.5;241.2;249.0;256.8;264.5;272.2;280.0" fill="freeze"/>
+        <animate attributeName="x" begin="12.24s" dur="0.67s" calcMode="discrete" keyTimes="0.0;0.0667;0.1333;0.2;0.2667;0.3333;0.4;0.4667;0.5333;0.6;0.6667;0.7333;0.8;0.8667;0.9333;1" values="184.1;193.0;201.8;210.8;219.8;228.7;237.6;246.6;255.6;264.5;273.4;282.4;291.4;300.3;309.2;318.2" fill="freeze"/>
         <animate attributeName="opacity" begin="12.92s" dur="0.35s" values="1;0;1;0" fill="freeze"/>
         <animate attributeName="opacity" begin="13.27s" dur="0.1s" to="0" fill="freeze"/>
       </rect>
@@ -353,7 +338,7 @@
         <animate attributeName="opacity" begin="13.90s" dur="0.2s" to="1" fill="freeze"/>
         <tspan fill="#a6e3a1">guest@mustafa</tspan><tspan fill="#585b70">:</tspan><tspan fill="#89b4fa">~</tspan><tspan fill="#585b70">$ </tspan>
       </text>
-      <rect x="163.8" y="1322.0" width="9" height="18" fill="#cdd6f4" opacity="0">
+      <rect x="184.1" y="1322.0" width="9" height="18" fill="#cdd6f4" opacity="0">
         <animate attributeName="opacity" begin="14.20s" values="1;1;0;0" keyTimes="0;0.5;0.51;1" dur="0.9s" repeatCount="indefinite"/>
       </rect>
       <text x="50" y="1377.0" opacity="0" fill="#cdd6f4">
