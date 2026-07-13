@@ -1,4 +1,3 @@
-
 <div align="center">
 
 <img src="./terminal-readme.svg" alt="mustafa terminal session" width="100%" />
@@ -46,6 +45,7 @@
 <br/>
 
 ### 📊 Live Stats
+<!-- ORIGINAL — already in your README, kept as-is -->
 
 <img src="https://github-readme-stats.vercel.app/api?username=MUSTAFA892&show_icons=true&theme=catppuccin_mocha&hide_title=true&bg_color=1e1e2e&border_color=cba6f7" height="165"/>
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MUSTAFA892&layout=compact&theme=catppuccin_mocha&bg_color=1e1e2e&border_color=cba6f7" height="165"/>
@@ -55,5 +55,88 @@
 <img src="https://github-profile-trophy.vercel.app/?username=MUSTAFA892&theme=catppuccin_mocha&no-frame=true&row=1&column=6&margin-w=8" />
 
 <img src="https://leetcard.jacoblin.cool/mustafatinwala6?theme=dark&font=Fira%20Code&ext=activity" />
+
+<br/><br/>
+
+<!-- ============================================================ -->
+<!-- OPTION 1 — Activity Graph (line-chart contribution history)   -->
+<!-- Zero setup. Just an image URL, same as your stats above.     -->
+<!-- Delete this whole block if you don't want it.                -->
+<!-- ============================================================ -->
+
+### 📈 Contribution Activity Graph
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=MUSTAFA892&theme=react-dark&bg_color=1e1e2e&color=cba6f7&line=89b4fa&point=f38ba8&area=true&hide_border=true" width="100%"/>
+
+<br/>
+
+<!-- ============================================================ -->
+<!-- OPTION 2 — Profile Summary Cards                              -->
+<!-- Multi-panel: stats / most-commit-language / languages / repos-->
+<!-- / productive-time. Pick the panels you want in the "panels=" -->
+<!-- param, or keep all five like below.                          -->
+<!-- Zero setup, image URL only.                                  -->
+<!-- ============================================================ -->
+
+### 🧩 Profile Summary Cards
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=MUSTAFA892&theme=vue_dark" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=MUSTAFA892&theme=vue_dark" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=MUSTAFA892&theme=vue_dark" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=MUSTAFA892&theme=vue_dark&utcOffset=4" />
+
+<!--
+  "productive-time" is the standout here — almost no one adds it.
+  It shows the hours/days you actually commit the most.
+  utcOffset=4 is set for Dubai (UTC+4) — change if that's not your timezone.
+-->
+
+<br/>
+
+<!-- ============================================================ -->
+<!-- OPTION 3 — 3D Contribution Calendar                           -->
+<!-- Turns your flat contribution grid into an isometric 3D chart. -->
+<!-- REQUIRES SETUP: a GitHub Action that runs on your account     -->
+<!-- (see instructions below the README).                          -->
+<!-- ============================================================ -->
+
+### 🧊 3D Contribution Calendar
+
+<img src="https://raw.githubusercontent.com/MUSTAFA892/MUSTAFA892/profile-3d-contrib/profile-night-rainbow.svg" width="100%"/>
+
+<br/>
+
+<!-- ============================================================ -->
+<!-- OPTION 4 — Contribution Snake                                 -->
+<!-- Animated snake that "eats" your contribution graph, one       -->
+<!-- square at a time, and updates every 12 hours.                 -->
+<!-- REQUIRES SETUP: a GitHub Action (see below).                  -->
+<!-- ============================================================ -->
+
+### 🐍 Contribution Snake
+
+<img src="https://raw.githubusercontent.com/MUSTAFA892/MUSTAFA892/output/github-contribution-grid-snake.svg" width="100%"/>
+
+<br/>
+
+<!-- ============================================================ -->
+<!-- OPTION 5 — WakaTime Weekly Coding Metrics                     -->
+<!-- Real language / editor / OS time breakdown from your actual   -->
+<!-- coding sessions (not just commits).                           -->
+<!-- REQUIRES SETUP: free WakaTime account + API key + Action.     -->
+<!-- ============================================================ -->
+
+<!--START_SECTION:waka-->
+```text
+From: 06 July 2026 - To: 13 July 2026
+
+Python       12 hrs 30 mins   ███████████░░░░░░░░░░░░░   45.2 %
+JavaScript    8 hrs 10 mins   ███████░░░░░░░░░░░░░░░░░   29.6 %
+TypeScript    4 hrs 05 mins   ████░░░░░░░░░░░░░░░░░░░░   14.8 %
+```
+<!--END_SECTION:waka-->
+
+<!-- ^ this is a PREVIEW of what it looks like. Once you wire up the -->
+<!-- Action (below), it fills in with your real numbers automatically. -->
 
 </div>
