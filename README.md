@@ -2,120 +2,127 @@
 
 <img src="./terminal-readme.svg" alt="mustafa terminal session" width="100%" />
 
-<br/>
+<br/><br/>
 
-<a href="https://www.linkedin.com/in/mustafa-a-904747283/"><img src="https://img.shields.io/badge/LinkedIn-Connect-89b4fa?style=for-the-badge&logo=linkedin&logoColor=1e1e2e&labelColor=11121a" /></a>
-<a href="mailto:mustafatinwala6@gmail.com"><img src="https://img.shields.io/badge/Gmail-Email_Me-f38ba8?style=for-the-badge&logo=gmail&logoColor=1e1e2e&labelColor=11121a" /></a>
-<a href="https://port-folio-nine-ruddy.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Visit-a6e3a1?style=for-the-badge&logo=vercel&logoColor=1e1e2e&labelColor=11121a" /></a>
-<a href="https://discord.com/users/mustafa5253"><img src="https://img.shields.io/badge/Discord-mustafa5253-cba6f7?style=for-the-badge&logo=discord&logoColor=1e1e2e&labelColor=11121a" /></a>
-<a href="https://www.instagram.com/_.mustafa._52/"><img src="https://img.shields.io/badge/Instagram-Follow-fab387?style=for-the-badge&logo=instagram&logoColor=1e1e2e&labelColor=11121a" /></a>
+<!-- ============================================================ -->
+<!--  SOCIAL LINKS — palette-matched to the SVG (11111b/1e1e2e)   -->
+<!-- ============================================================ -->
+
+<a href="https://www.linkedin.com/in/mustafa-a-904747283/">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-89b4fa?style=for-the-badge&logo=linkedin&logoColor=11111b&labelColor=1e1e2e" />
+</a>
+<a href="mailto:mustafatinwala6@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-Email_Me-f38ba8?style=for-the-badge&logo=gmail&logoColor=11111b&labelColor=1e1e2e" />
+</a>
+<a href="https://port-folio-nine-ruddy.vercel.app/">
+  <img src="https://img.shields.io/badge/Portfolio-Visit-a6e3a1?style=for-the-badge&logo=vercel&logoColor=11111b&labelColor=1e1e2e" />
+</a>
+<a href="https://discord.com/users/mustafa5253">
+  <img src="https://img.shields.io/badge/Discord-mustafa5253-cba6f7?style=for-the-badge&logo=discord&logoColor=11111b&labelColor=1e1e2e" />
+</a>
+<a href="https://www.instagram.com/_.mustafa._52/">
+  <img src="https://img.shields.io/badge/Instagram-Follow-fab387?style=for-the-badge&logo=instagram&logoColor=11111b&labelColor=1e1e2e" />
+</a>
 
 <br/><br/>
 
-### Tech Stack
+<!-- ============================================================ -->
+<!--  SECTION HEADER — mimics the "$ cat tech-stack.md" style     -->
+<!-- ============================================================ -->
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=flat-square&logo=bootstrap&logoColor=white)
+<img src="https://img.shields.io/badge/%24_cat-tech--stack.md-cba6f7?style=flat-square&labelColor=11111b&color=181825" />
 
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/Numpy-013243?style=flat-square&logo=numpy&logoColor=white)
+<br/><br/>
 
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-00758F?style=flat-square&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+**Languages & Frameworks**
 
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
-![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
+![Python](https://img.shields.io/badge/Python-1e1e2e?style=flat-square&logo=python&logoColor=3776AB&labelColor=11111b)
+![JavaScript](https://img.shields.io/badge/JavaScript-1e1e2e?style=flat-square&logo=javascript&logoColor=f9e2af&labelColor=11111b)
+![Node.js](https://img.shields.io/badge/Node.js-1e1e2e?style=flat-square&logo=nodedotjs&logoColor=a6e3a1&labelColor=11111b)
+![React](https://img.shields.io/badge/React-1e1e2e?style=flat-square&logo=react&logoColor=89b4fa&labelColor=11111b)
+![Express.js](https://img.shields.io/badge/Express.js-1e1e2e?style=flat-square&logo=express&logoColor=cdd6f4&labelColor=11111b)
+![Django](https://img.shields.io/badge/Django-1e1e2e?style=flat-square&logo=django&logoColor=a6e3a1&labelColor=11111b)
+![HTML5](https://img.shields.io/badge/HTML5-1e1e2e?style=flat-square&logo=html5&logoColor=fab387&labelColor=11111b)
+![CSS3](https://img.shields.io/badge/CSS3-1e1e2e?style=flat-square&logo=css3&logoColor=89b4fa&labelColor=11111b)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-1e1e2e?style=flat-square&logo=tailwindcss&logoColor=89dceb&labelColor=11111b)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-1e1e2e?style=flat-square&logo=bootstrap&logoColor=cba6f7&labelColor=11111b)
+
+**AI / ML / Data Science**
+
+![TensorFlow](https://img.shields.io/badge/TensorFlow-1e1e2e?style=flat-square&logo=tensorflow&logoColor=fab387&labelColor=11111b)
+![Scikit-learn](https://img.shields.io/badge/Scikit--Learn-1e1e2e?style=flat-square&logo=scikit-learn&logoColor=fab387&labelColor=11111b)
+![OpenCV](https://img.shields.io/badge/OpenCV-1e1e2e?style=flat-square&logo=opencv&logoColor=89b4fa&labelColor=11111b)
+![Pandas](https://img.shields.io/badge/Pandas-1e1e2e?style=flat-square&logo=pandas&logoColor=cba6f7&labelColor=11111b)
+![NumPy](https://img.shields.io/badge/NumPy-1e1e2e?style=flat-square&logo=numpy&logoColor=89b4fa&labelColor=11111b)
+
+**Databases**
+
+![MongoDB](https://img.shields.io/badge/MongoDB-1e1e2e?style=flat-square&logo=mongodb&logoColor=a6e3a1&labelColor=11111b)
+![MySQL](https://img.shields.io/badge/MySQL-1e1e2e?style=flat-square&logo=mysql&logoColor=89b4fa&labelColor=11111b)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-1e1e2e?style=flat-square&logo=postgresql&logoColor=89b4fa&labelColor=11111b)
+
+**Cloud, DevOps & Design**
+
+![Firebase](https://img.shields.io/badge/Firebase-1e1e2e?style=flat-square&logo=firebase&logoColor=f9e2af&labelColor=11111b)
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-1e1e2e?style=flat-square&logo=googlecloud&logoColor=89b4fa&labelColor=11111b)
+![Docker](https://img.shields.io/badge/Docker-1e1e2e?style=flat-square&logo=docker&logoColor=89b4fa&labelColor=11111b)
+![Git](https://img.shields.io/badge/Git-1e1e2e?style=flat-square&logo=git&logoColor=fab387&labelColor=11111b)
+![GitHub](https://img.shields.io/badge/GitHub-1e1e2e?style=flat-square&logo=github&logoColor=cdd6f4&labelColor=11111b)
+![Figma](https://img.shields.io/badge/Figma-1e1e2e?style=flat-square&logo=figma&logoColor=f38ba8&labelColor=11111b)
 
 <br/>
 
 <!-- ============================================================ -->
-<!-- OPTION 1 — Activity Graph (line-chart contribution history)   -->
-<!-- Zero setup. Just an image URL, same as your stats above.     -->
-<!-- Delete this whole block if you don't want it.                -->
+<!--  GITHUB STATS — github-readme-stats has a native             -->
+<!--  "catppuccin_mocha" theme, so this now matches the SVG       -->
+<!--  exactly instead of clashing with a generic dark theme.       -->
 <!-- ============================================================ -->
 
-### Contribution Activity Graph
+<img src="https://img.shields.io/badge/%24_git-stats.sh-cba6f7?style=flat-square&labelColor=11111b&color=181825" />
+
+<br/><br/>
+
+<img src="https://github-readme-stats.vercel.app/api?username=MUSTAFA892&show_icons=true&theme=catppuccin_mocha&hide_border=true&bg_color=1e1e2e" width="49%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MUSTAFA892&layout=compact&theme=catppuccin_mocha&hide_border=true&bg_color=1e1e2e" width="49%" />
+
+<br/><br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=MUSTAFA892&theme=catppuccin-mocha&hide_border=true&background=1e1e2e" width="100%" />
+
+<br/><br/>
+
+<!-- ============================================================ -->
+<!--  CONTRIBUTION ACTIVITY GRAPH — colors matched to SVG palette -->
+<!-- ============================================================ -->
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=MUSTAFA892&theme=react-dark&bg_color=1e1e2e&color=cba6f7&line=89b4fa&point=f38ba8&area=true&hide_border=true" width="100%"/>
 
 <br/>
 
 <!-- ============================================================ -->
-<!-- OPTION 2 — Profile Summary Cards                              -->
-<!-- Multi-panel: stats / most-commit-language / languages / repos-->
-<!-- / productive-time. Pick the panels you want in the "panels=" -->
-<!-- param, or keep all five like below.                          -->
-<!-- Zero setup, image URL only.                                  -->
+<!--  CONTRIBUTION SNAKE — requires the GitHub Action below to    -->
+<!--  actually generate the SVG on the `output` branch. Until     -->
+<!--  that runs once, this image will show broken — expected.     -->
 <!-- ============================================================ -->
-
-### Profile Summary Cards
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=MUSTAFA892&theme=github_dark" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=MUSTAFA892&theme=github_dark" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=MUSTAFA892&theme=github_dark" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=MUSTAFA892&theme=github_dark&utcOffset=4" />
-
-<!--
-  "productive-time" is the standout here — almost no one adds it.
-  It shows the hours/days you actually commit the most.
-  utcOffset=4 is set for Dubai (UTC+4) — change if that's not your timezone.
--->
-
-<br/>
-
-<!-- ============================================================ -->
-<!-- OPTION 3 — 3D Contribution Calendar                           -->
-<!-- Turns your flat contribution grid into an isometric 3D chart. -->
-<!-- REQUIRES SETUP: a GitHub Action that runs on your account     -->
-<!-- (see instructions below the README).                          -->
-<!-- ============================================================ -->
-<br/>
-
-<!-- ============================================================ -->
-<!-- OPTION 4 — Contribution Snake                                 -->
-<!-- Animated snake that "eats" your contribution graph, one       -->
-<!-- square at a time, and updates every 12 hours.                 -->
-<!-- REQUIRES SETUP: a GitHub Action (see below).                  -->
-<!-- ============================================================ -->
-
-### Contribution Snake
-<!-- ⚠️ Currently shows broken image — this is EXPECTED. Same reason as     -->
-<!-- above: this SVG is generated by a GitHub Action, not a live URL.      -->
-<!-- Add the workflow below, run it once, then this will render for real.  -->
 
 <img src="https://raw.githubusercontent.com/MUSTAFA892/MUSTAFA892/output/github-contribution-grid-snake.svg" width="100%"/>
 
 <br/>
 
 <!-- ============================================================ -->
-<!-- OPTION 5 — WakaTime Weekly Coding Metrics                     -->
-<!-- Real language / editor / OS time breakdown from your actual   -->
-<!-- coding sessions (not just commits).                           -->
-<!-- REQUIRES SETUP: free WakaTime account + API key + Action.     -->
+<!--  WAKATIME — leave empty until a WakaTime API key + Action    -->
+<!--  is wired up; then it auto-fills on the next scheduled run.  -->
 <!-- ============================================================ -->
+
+<img src="https://img.shields.io/badge/%24_cat-contact.txt-cba6f7?style=flat-square&labelColor=11111b&color=181825" />
+
+<br/><br/>
 
 <!--START_SECTION:waka-->
 <!--END_SECTION:waka-->
 
-<!-- This block is intentionally EMPTY right now — no fake numbers.   -->
-<!-- Once you connect a free WakaTime account + add the Action below, -->
-<!-- it auto-fills with YOUR real coding-time data on the next run.   -->
-<!-- Until then, leave it empty or delete this whole section.         -->
+<br/>
+
+<sub><b>→</b> Always building • Always learning • Always shipping</sub>
 
 </div>
