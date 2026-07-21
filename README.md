@@ -9,6 +9,7 @@
 <a href="https://port-folio-nine-ruddy.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Visit-a6e3a1?style=for-the-badge&logo=vercel&logoColor=1e1e2e&labelColor=11121a" /></a>
 <a href="https://discord.com/users/mustafa5253"><img src="https://img.shields.io/badge/Discord-mustafa5253-cba6f7?style=for-the-badge&logo=discord&logoColor=1e1e2e&labelColor=11121a" /></a>
 <a href="https://www.instagram.com/_.mustafa._52/"><img src="https://img.shields.io/badge/Instagram-Follow-fab387?style=for-the-badge&logo=instagram&logoColor=1e1e2e&labelColor=11121a" /></a>
+<a href="./resume.pdf" download="Mustafa_Tinwala_Resume.pdf"><img src="https://img.shields.io/badge/Resume-Download-f9e2af?style=for-the-badge&logo=readdotcv&logoColor=1e1e2e&labelColor=11121a" /></a>
 
 <br/><br/>
 
